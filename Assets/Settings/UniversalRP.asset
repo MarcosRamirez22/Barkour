@@ -100,7 +100,7 @@ MonoBehaviour:
     obsoleteHasProbeVolumes:
       m_Keys: []
       m_Values: 
-  m_PrefilteringModeMainLightShadows: 1
+  m_PrefilteringModeMainLightShadows: 4
   m_PrefilteringModeAdditionalLight: 4
   m_PrefilteringModeAdditionalLightShadows: 1
   m_PrefilterXRKeywords: 0
