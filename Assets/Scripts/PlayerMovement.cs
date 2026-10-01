@@ -48,6 +48,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float wallJumpVerticalForce = 10f;
     [SerializeField] private float wallJumpControlLockDuration = 0.15f;
 
+    [Header("Camera Boundary")]
+    [SerializeField] private Camera gameplayCamera;
+    [SerializeField] private CameraController cameraController;
+    [SerializeField] private float rightBoundaryPadding = 0f;
+
     private Rigidbody2D rb;
     private BoxCollider2D playerCollider;
 
@@ -108,7 +113,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (RunManager.Instance != null &&
+            RunManager.Instance.CurrentState == RunManager.RunState.Failed)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         HandleMovement();
+        HandleRightCameraBoundary();
         HandleWallSlide();
         HandleGravity();
     }
@@ -575,6 +588,51 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void HandleRightCameraBoundary()
+    {
+        if (gameplayCamera == null || cameraController == null)
+        {
+            return;
+        }
+
+        if (rb.linearVelocity.x <= cameraController.ScrollSpeed)
+        {
+            return;
+        }
+
+        float cameraRightEdge = gameplayCamera.ViewportToWorldPoint(
+            new Vector3(1f, 0.5f, 0f)
+        ).x;
+
+        float allowedRightEdge =
+            cameraRightEdge - rightBoundaryPadding;
+
+        float distanceToBoundary =
+            allowedRightEdge - playerCollider.bounds.max.x;
+
+        if (distanceToBoundary <= 0f)
+        {
+            rb.linearVelocity = new Vector2(
+                cameraController.ScrollSpeed,
+                rb.linearVelocity.y
+            );
+
+            return;
+        }
+
+        float maximumAllowedSpeed =
+            cameraController.ScrollSpeed +
+            distanceToBoundary / Time.fixedDeltaTime;
+
+        if (rb.linearVelocity.x > maximumAllowedSpeed)
+        {
+            rb.linearVelocity = new Vector2(
+                maximumAllowedSpeed,
+                rb.linearVelocity.y
+            );
+        }
+    }
+
     private void Jump()
     {
         float currentJumpForce = jumpForce;
@@ -624,6 +682,20 @@ public class PlayerMovement : MonoBehaviour
             wallJumpControlLockDuration;
 
         isWallSliding = false;
+    }
+
+    public bool IsOffScreenLeft()
+    {
+        if (gameplayCamera == null)
+        {
+            return false;
+        }
+
+        float cameraLeftEdge = gameplayCamera.ViewportToWorldPoint(
+            new Vector3(0f, 0.5f, 0f)
+        ).x;
+
+        return playerCollider.bounds.max.x < cameraLeftEdge;
     }
 
     private void OnDrawGizmosSelected()
