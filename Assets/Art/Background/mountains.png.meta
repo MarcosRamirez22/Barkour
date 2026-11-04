@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 1c7e1658ddafdf04d8d0830641004b13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5440072062336949347
+    second: Seamless Pixel-Art Mountain Parallax Layer_0
+  - first:
+      213: 334196921773669286
+    second: Seamless Pixel-Art Mountain Parallax Layer_1
+  - first:
+      213: 2833737840247317806
+    second: Seamless Pixel-Art Mountain Parallax Layer_2
+  - first:
+      213: -3765796266910068222
+    second: Seamless Pixel-Art Mountain Parallax Layer_3
+  - first:
+      213: 6011988466007204471
+    second: Seamless Pixel-Art Mountain Parallax Layer_4
+  - first:
+      213: -2705161706818753032
+    second: Seamless Pixel-Art Mountain Parallax Layer_5
+  - first:
+      213: -2639552825001914087
+    second: Seamless Pixel-Art Mountain Parallax Layer_6
+  - first:
+      213: 3403504299330580538
+    second: Seamless Pixel-Art Mountain Parallax Layer_7
+  - first:
+      213: -5275669015811598869
+    second: Seamless Pixel-Art Mountain Parallax Layer_8
+  - first:
+      213: -4884866638739689234
+    second: Seamless Pixel-Art Mountain Parallax Layer_9
+  - first:
+      213: 4896185768889728078
+    second: Seamless Pixel-Art Mountain Parallax Layer_10
+  - first:
+      213: -3572182578194238446
+    second: Seamless Pixel-Art Mountain Parallax Layer_11
+  - first:
+      213: 7793535719470495494
+    second: Seamless Pixel-Art Mountain Parallax Layer_12
+  - first:
+      213: 8651624838674876854
+    second: Seamless Pixel-Art Mountain Parallax Layer_13
+  - first:
+      213: -4730425366630648568
+    second: Seamless Pixel-Art Mountain Parallax Layer_14
+  - first:
+      213: 334433872464652173
+    second: Seamless Pixel-Art Mountain Parallax Layer_15
+  - first:
+      213: -1092920699618699558
+    second: Seamless Pixel-Art Mountain Parallax Layer_16
+  - first:
+      213: 959831110765280162
+    second: Seamless Pixel-Art Mountain Parallax Layer_17
+  - first:
+      213: 1767123709841573346
+    second: Seamless Pixel-Art Mountain Parallax Layer_18
+  - first:
+      213: -7416809592002617635
+    second: Seamless Pixel-Art Mountain Parallax Layer_19
+  - first:
+      213: -5374276006480380281
+    second: Seamless Pixel-Art Mountain Parallax Layer_20
+  - first:
+      213: 5034269938690143273
+    second: Seamless Pixel-Art Mountain Parallax Layer_21
+  - first:
+      213: 5481187841650175016
+    second: Seamless Pixel-Art Mountain Parallax Layer_22
+  - first:
+      213: 4560274684947329761
+    second: Seamless Pixel-Art Mountain Parallax Layer_23
+  - first:
+      213: 6884191397522211239
+    second: Seamless Pixel-Art Mountain Parallax Layer_24
+  - first:
+      213: -5182091886983403618
+    second: Seamless Pixel-Art Mountain Parallax Layer_25
+  - first:
+      213: 8786284379436154567
+    second: Seamless Pixel-Art Mountain Parallax Layer_26
+  - first:
+      213: 3439347534690102223
+    second: Seamless Pixel-Art Mountain Parallax Layer_27
+  - first:
+      213: -7715741022720427670
+    second: Seamless Pixel-Art Mountain Parallax Layer_28
+  - first:
+      213: -1087015708011681388
+    second: Seamless Pixel-Art Mountain Parallax Layer_29
+  - first:
+      213: 1005300377861875360
+    second: Seamless Pixel-Art Mountain Parallax Layer_30
+  - first:
+      213: -1479077013559922757
+    second: Seamless Pixel-Art Mountain Parallax Layer_31
+  - first:
+      213: 839098226571384222
+    second: Seamless Pixel-Art Mountain Parallax Layer_32
+  - first:
+      213: -628490250987696857
+    second: Seamless Pixel-Art Mountain Parallax Layer_33
+  - first:
+      213: 4360899256586660467
+    second: Seamless Pixel-Art Mountain Parallax Layer_34
+  - first:
+      213: 7968906228781510481
+    second: Seamless Pixel-Art Mountain Parallax Layer_35
+  - first:
+      213: -1911919171835222393
+    second: Seamless Pixel-Art Mountain Parallax Layer_36
+  - first:
+      213: 2420723731796740194
+    second: Seamless Pixel-Art Mountain Parallax Layer_37
+  - first:
+      213: 2662716571499729808
+    second: Seamless Pixel-Art Mountain Parallax Layer_38
+  - first:
+      213: 6508497528399404922
+    second: Seamless Pixel-Art Mountain Parallax Layer_39
+  - first:
+      213: 7582382371535236972
+    second: Seamless Pixel-Art Mountain Parallax Layer_40
+  - first:
+      213: 6214902435824799250
+    second: Seamless Pixel-Art Mountain Parallax Layer_41
+  - first:
+      213: -1248395787287802563
+    second: Seamless Pixel-Art Mountain Parallax Layer_42
+  - first:
+      213: 8285112903498466463
+    second: Seamless Pixel-Art Mountain Parallax Layer_43
+  - first:
+      213: 7630819536496903671
+    second: Seamless Pixel-Art Mountain Parallax Layer_44
+  - first:
+      213: -6022363047344589669
+    second: Seamless Pixel-Art Mountain Parallax Layer_45
+  - first:
+      213: -6602706791428744097
+    second: Seamless Pixel-Art Mountain Parallax Layer_46
+  - first:
+      213: 2523342727297970743
+    second: Seamless Pixel-Art Mountain Parallax Layer_47
+  - first:
+      213: -650709586772274682
+    second: Seamless Pixel-Art Mountain Parallax Layer_48
+  - first:
+      213: 4114954182278118677
+    second: Seamless Pixel-Art Mountain Parallax Layer_49
+  - first:
+      213: -1842392622704323391
+    second: Seamless Pixel-Art Mountain Parallax Layer_50
+  - first:
+      213: 3091775237309349926
+    second: Seamless Pixel-Art Mountain Parallax Layer_51
+  - first:
+      213: -4237607132641834603
+    second: Seamless Pixel-Art Mountain Parallax Layer_52
+  - first:
+      213: 8705870886658183317
+    second: Seamless Pixel-Art Mountain Parallax Layer_53
+  - first:
+      213: -5820145878141055064
+    second: Seamless Pixel-Art Mountain Parallax Layer_54
+  - first:
+      213: -819393452264867339
+    second: Seamless Pixel-Art Mountain Parallax Layer_55
+  - first:
+      213: -774391758847611893
+    second: Seamless Pixel-Art Mountain Parallax Layer_56
+  - first:
+      213: -357421535266067043
+    second: Seamless Pixel-Art Mountain Parallax Layer_57
+  - first:
+      213: 6086384866841476395
+    second: Seamless Pixel-Art Mountain Parallax Layer_58
+  - first:
+      213: -3400948950886251967
+    second: Seamless Pixel-Art Mountain Parallax Layer_59
+  - first:
+      213: 6042167861631998704
+    second: Seamless Pixel-Art Mountain Parallax Layer_60
+  - first:
+      213: -6367649053763291907
+    second: Seamless Pixel-Art Mountain Parallax Layer_61
+  - first:
+      213: -4720861047925020703
+    second: Seamless Pixel-Art Mountain Parallax Layer_62
+  - first:
+      213: 7076598850059896328
+    second: Seamless Pixel-Art Mountain Parallax Layer_63
+  - first:
+      213: 5894881909526561855
+    second: Seamless Pixel-Art Mountain Parallax Layer_64
+  - first:
+      213: 1177758491438750575
+    second: Seamless Pixel-Art Mountain Parallax Layer_65
+  - first:
+      213: 2770689508656832466
+    second: Seamless Pixel-Art Mountain Parallax Layer_66
+  - first:
+      213: -8821650797500659818
+    second: Seamless Pixel-Art Mountain Parallax Layer_67
+  - first:
+      213: 8947445385003888286
+    second: Seamless Pixel-Art Mountain Parallax Layer_68
+  - first:
+      213: -1639674271643825803
+    second: Seamless Pixel-Art Mountain Parallax Layer_69
+  - first:
+      213: 8173970703339107950
+    second: Seamless Pixel-Art Mountain Parallax Layer_70
+  - first:
+      213: 6938139515153791018
+    second: Seamless Pixel-Art Mountain Parallax Layer_71
+  - first:
+      213: -5714134663846023787
+    second: Seamless Pixel-Art Mountain Parallax Layer_72
+  - first:
+      213: -5437098664374445499
+    second: Seamless Pixel-Art Mountain Parallax Layer_73
+  - first:
+      213: 3848326963306308473
+    second: Seamless Pixel-Art Mountain Parallax Layer_74
+  - first:
+      213: 6158919799342136797
+    second: Seamless Pixel-Art Mountain Parallax Layer_75
+  - first:
+      213: 4974364219743250275
+    second: Seamless Pixel-Art Mountain Parallax Layer_76
+  - first:
+      213: -3227199592729987553
+    second: Seamless Pixel-Art Mountain Parallax Layer_77
+  - first:
+      213: -6232179816768017533
+    second: Seamless Pixel-Art Mountain Parallax Layer_78
+  - first:
+      213: -8549789462289035791
+    second: Seamless Pixel-Art Mountain Parallax Layer_79
+  - first:
+      213: -5699762179777108720
+    second: Seamless Pixel-Art Mountain Parallax Layer_80
+  - first:
+      213: 9023659020061281315
+    second: Seamless Pixel-Art Mountain Parallax Layer_81
+  - first:
+      213: -2560058412409181377
+    second: Seamless Pixel-Art Mountain Parallax Layer_82
+  - first:
+      213: -8429631384313883451
+    second: Seamless Pixel-Art Mountain Parallax Layer_83
+  - first:
+      213: -5457179770795503310
+    second: Seamless Pixel-Art Mountain Parallax Layer_84
+  - first:
+      213: 553055429618554286
+    second: Seamless Pixel-Art Mountain Parallax Layer_85
+  - first:
+      213: 2012830589133503496
+    second: Seamless Pixel-Art Mountain Parallax Layer_86
+  - first:
+      213: 762373059221306954
+    second: Seamless Pixel-Art Mountain Parallax Layer_87
+  - first:
+      213: -8258892501740835858
+    second: Seamless Pixel-Art Mountain Parallax Layer_88
+  - first:
+      213: 5277449153550993303
+    second: Seamless Pixel-Art Mountain Parallax Layer_89
+  - first:
+      213: -4921230188498071714
+    second: Seamless Pixel-Art Mountain Parallax Layer_90
+  - first:
+      213: -5339201500340416628
+    second: Seamless Pixel-Art Mountain Parallax Layer_91
+  - first:
+      213: -2880703387362921703
+    second: Seamless Pixel-Art Mountain Parallax Layer_92
+  - first:
+      213: 3309343129207386451
+    second: Seamless Pixel-Art Mountain Parallax Layer_93
+  - first:
+      213: 3478186200785197419
+    second: Seamless Pixel-Art Mountain Parallax Layer_94
+  - first:
+      213: -5042788951767513861
+    second: Seamless Pixel-Art Mountain Parallax Layer_95
+  - first:
+      213: -8650948677227154991
+    second: Seamless Pixel-Art Mountain Parallax Layer_96
+  - first:
+      213: 600716171138874542
+    second: Seamless Pixel-Art Mountain Parallax Layer_97
+  - first:
+      213: -7364707867950848312
+    second: Seamless Pixel-Art Mountain Parallax Layer_98
+  - first:
+      213: -8963122203262085447
+    second: Seamless Pixel-Art Mountain Parallax Layer_99
+  - first:
+      213: 8311410462923163570
+    second: Seamless Pixel-Art Mountain Parallax Layer_100
+  - first:
+      213: 5957321671249226808
+    second: Seamless Pixel-Art Mountain Parallax Layer_101
+  - first:
+      213: 5891193607079034123
+    second: Seamless Pixel-Art Mountain Parallax Layer_102
+  - first:
+      213: -2946181949696719949
+    second: Seamless Pixel-Art Mountain Parallax Layer_103
+  - first:
+      213: 5482679305633464677
+    second: Seamless Pixel-Art Mountain Parallax Layer_104
+  - first:
+      213: -7997852247988651677
+    second: Seamless Pixel-Art Mountain Parallax Layer_105
+  - first:
+      213: -4859814453503999278
+    second: Seamless Pixel-Art Mountain Parallax Layer_106
+  - first:
+      213: 7465777094178951000
+    second: Seamless Pixel-Art Mountain Parallax Layer_107
+  - first:
+      213: -3923731121479798151
+    second: Seamless Pixel-Art Mountain Parallax Layer_108
+  - first:
+      213: 8987337992228787093
+    second: Seamless Pixel-Art Mountain Parallax Layer_109
+  - first:
+      213: -1194981413277610675
+    second: Seamless Pixel-Art Mountain Parallax Layer_110
+  - first:
+      213: -4396505759047471050
+    second: Seamless Pixel-Art Mountain Parallax Layer_111
+  - first:
+      213: -4086037075395845486
+    second: Seamless Pixel-Art Mountain Parallax Layer_112
+  - first:
+      213: -7242278429773577984
+    second: Seamless Pixel-Art Mountain Parallax Layer_113
+  - first:
+      213: 5936696434194608535
+    second: Seamless Pixel-Art Mountain Parallax Layer_114
+  - first:
+      213: -5906625014945210559
+    second: Seamless Pixel-Art Mountain Parallax Layer_115
+  - first:
+      213: 5486214932912791938
+    second: Seamless Pixel-Art Mountain Parallax Layer_116
+  - first:
+      213: 1923407770423133244
+    second: Seamless Pixel-Art Mountain Parallax Layer_117
+  - first:
+      213: 7643413922855626546
+    second: Seamless Pixel-Art Mountain Parallax Layer_118
+  - first:
+      213: -20527802599214259
+    second: Seamless Pixel-Art Mountain Parallax Layer_119
+  - first:
+      213: 575063088780346519
+    second: Seamless Pixel-Art Mountain Parallax Layer_120
+  - first:
+      213: -8115506726018373908
+    second: Seamless Pixel-Art Mountain Parallax Layer_121
+  - first:
+      213: -7718687322294489691
+    second: Seamless Pixel-Art Mountain Parallax Layer_122
+  - first:
+      213: -2958153232408160525
+    second: Seamless Pixel-Art Mountain Parallax Layer_123
+  - first:
+      213: 3684668120390425851
+    second: Seamless Pixel-Art Mountain Parallax Layer_124
+  - first:
+      213: 6115914506624608137
+    second: Seamless Pixel-Art Mountain Parallax Layer_125
+  - first:
+      213: -1485051182038189108
+    second: Seamless Pixel-Art Mountain Parallax Layer_126
+  - first:
+      213: 7652619972417137686
+    second: Seamless Pixel-Art Mountain Parallax Layer_127
+  - first:
+      213: 2564673142562698967
+    second: Seamless Pixel-Art Mountain Parallax Layer_128
+  - first:
+      213: -1633581137353206867
+    second: Seamless Pixel-Art Mountain Parallax Layer_129
+  - first:
+      213: 6530936052898520516
+    second: Seamless Pixel-Art Mountain Parallax Layer_130
+  - first:
+      213: -2282619984027078813
+    second: Seamless Pixel-Art Mountain Parallax Layer_131
+  - first:
+      213: 1672271671399021362
+    second: Seamless Pixel-Art Mountain Parallax Layer_132
+  - first:
+      213: 8760675721681378244
+    second: Seamless Pixel-Art Mountain Parallax Layer_133
+  - first:
+      213: 6319762327883863376
+    second: Seamless Pixel-Art Mountain Parallax Layer_134
+  - first:
+      213: 2733654971857868356
+    second: Seamless Pixel-Art Mountain Parallax Layer_135
+  - first:
+      213: -5048344053629888201
+    second: Seamless Pixel-Art Mountain Parallax Layer_136
+  - first:
+      213: -6093705702860176396
+    second: Seamless Pixel-Art Mountain Parallax Layer_137
+  - first:
+      213: -6785967733996836046
+    second: Seamless Pixel-Art Mountain Parallax Layer_138
+  - first:
+      213: 7658236626251979647
+    second: Seamless Pixel-Art Mountain Parallax Layer_139
+  - first:
+      213: 8096289663927387053
+    second: Seamless Pixel-Art Mountain Parallax Layer_140
+  - first:
+      213: -9077485779299655698
+    second: Seamless Pixel-Art Mountain Parallax Layer_141
+  - first:
+      213: 3253379481088258556
+    second: Seamless Pixel-Art Mountain Parallax Layer_142
+  - first:
+      213: 8629262656796950912
+    second: Seamless Pixel-Art Mountain Parallax Layer_143
+  - first:
+      213: -2719631685773916931
+    second: Seamless Pixel-Art Mountain Parallax Layer_144
+  - first:
+      213: 7553087434066321399
+    second: Seamless Pixel-Art Mountain Parallax Layer_145
+  - first:
+      213: 5429650432819666707
+    second: Seamless Pixel-Art Mountain Parallax Layer_146
+  - first:
+      213: 4898477447435729595
+    second: Seamless Pixel-Art Mountain Parallax Layer_147
+  - first:
+      213: 870234194483168034
+    second: Seamless Pixel-Art Mountain Parallax Layer_148
+  - first:
+      213: -1389703030900318048
+    second: Seamless Pixel-Art Mountain Parallax Layer_149
+  - first:
+      213: 7919644411989752596
+    second: Seamless Pixel-Art Mountain Parallax Layer_150
+  - first:
+      213: -765506360504986925
+    second: Seamless Pixel-Art Mountain Parallax Layer_151
+  - first:
+      213: -8693686249207082347
+    second: Seamless Pixel-Art Mountain Parallax Layer_152
+  - first:
+      213: -3809052733767321901
+    second: Seamless Pixel-Art Mountain Parallax Layer_153
+  - first:
+      213: -8641287975220234483
+    second: Seamless Pixel-Art Mountain Parallax Layer_154
+  - first:
+      213: -6716890996511419196
+    second: Seamless Pixel-Art Mountain Parallax Layer_155
+  - first:
+      213: 5110323822897226724
+    second: Seamless Pixel-Art Mountain Parallax Layer_156
+  - first:
+      213: -8796865828632999254
+    second: Seamless Pixel-Art Mountain Parallax Layer_157
+  - first:
+      213: -1022193767761818753
+    second: Seamless Pixel-Art Mountain Parallax Layer_158
+  - first:
+      213: 8415987836820578741
+    second: Seamless Pixel-Art Mountain Parallax Layer_159
+  - first:
+      213: 6350372737806233783
+    second: Seamless Pixel-Art Mountain Parallax Layer_160
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seamless Pixel-Art Mountain Parallax Layer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cde1cc7b40f7b40800000000000000
+      internalID: 5440072062336949347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 44dae5739f9b99149b77d86742cfb6ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2172.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Seamless Pixel-Art Mountain Parallax Layer_0: 5440072062336949347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

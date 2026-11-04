@@ -145,28 +145,39 @@ public class LevelChunkSpawner : MonoBehaviour
             : chunkPrefab;
     }
 
-    private void SpawnChunk()
+    
+private void SpawnChunk()
+{
+    GameObject selectedPrefab = SelectChunkPrefab();
+
+    Vector3 spawnPosition = new Vector3(
+        nextChunkX,
+        groundY,
+        0f
+    );
+
+    GameObject newChunk = Instantiate(
+        selectedPrefab,
+        spawnPosition,
+        Quaternion.identity,
+        transform
+    );
+
+    // Generate decorations for this chunk.
+    ChunkDecorationSpawner decorationSpawner =
+        newChunk.GetComponent<ChunkDecorationSpawner>();
+
+    if (decorationSpawner != null)
     {
-        GameObject selectedPrefab = SelectChunkPrefab();
-
-        Vector3 spawnPosition = new Vector3(
-            nextChunkX,
-            groundY,
-            0f
-        );
-
-        GameObject newChunk = Instantiate(
-            selectedPrefab,
-            spawnPosition,
-            Quaternion.identity,
-            transform
-        );
-
-        activeChunks.Enqueue(newChunk);
-
-        spawnedChunkCount++;
-        nextChunkX += chunkWidth;
+        decorationSpawner.Generate(seed, spawnedChunkCount);
     }
+
+    activeChunks.Enqueue(newChunk);
+
+    spawnedChunkCount++;
+    nextChunkX += chunkWidth;
+}
+
 
     private void CleanupOldChunks()
     {
