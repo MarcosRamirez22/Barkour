@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 5cb9065049139794b9e6750fb7795062
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3008219495353004201
+    second: Seamless Pixel Cloudscape with Sparkles_0
+  - first:
+      213: 3617519461374798988
+    second: Seamless Pixel Cloudscape with Sparkles_1
+  - first:
+      213: 1248856801521130426
+    second: Seamless Pixel Cloudscape with Sparkles_2
+  - first:
+      213: 2632804114935401047
+    second: Seamless Pixel Cloudscape with Sparkles_3
+  - first:
+      213: 6011651346433937520
+    second: Seamless Pixel Cloudscape with Sparkles_4
+  - first:
+      213: 8147347248038689152
+    second: Seamless Pixel Cloudscape with Sparkles_5
+  - first:
+      213: 6019050241152264996
+    second: Seamless Pixel Cloudscape with Sparkles_6
+  - first:
+      213: -8752620770073706862
+    second: Seamless Pixel Cloudscape with Sparkles_7
+  - first:
+      213: -8127318019587871453
+    second: Seamless Pixel Cloudscape with Sparkles_8
+  - first:
+      213: 8103423051812237204
+    second: Seamless Pixel Cloudscape with Sparkles_9
+  - first:
+      213: 8584612531039671634
+    second: Seamless Pixel Cloudscape with Sparkles_10
+  - first:
+      213: -1026470345965033980
+    second: Seamless Pixel Cloudscape with Sparkles_11
+  - first:
+      213: 8963653681542154628
+    second: Seamless Pixel Cloudscape with Sparkles_12
+  - first:
+      213: -9110989184778610636
+    second: Seamless Pixel Cloudscape with Sparkles_13
+  - first:
+      213: 429598158568794547
+    second: Seamless Pixel Cloudscape with Sparkles_14
+  - first:
+      213: 294510415819150395
+    second: Seamless Pixel Cloudscape with Sparkles_15
+  - first:
+      213: -8353854244914239018
+    second: Seamless Pixel Cloudscape with Sparkles_16
+  - first:
+      213: -8445485048339141949
+    second: Seamless Pixel Cloudscape with Sparkles_17
+  - first:
+      213: -7012619563253473658
+    second: Seamless Pixel Cloudscape with Sparkles_18
+  - first:
+      213: 9218793545188408570
+    second: Seamless Pixel Cloudscape with Sparkles_19
+  - first:
+      213: 1240305617108733232
+    second: Seamless Pixel Cloudscape with Sparkles_20
+  - first:
+      213: 1709869304053313729
+    second: Seamless Pixel Cloudscape with Sparkles_21
+  - first:
+      213: -5967821773677862267
+    second: Seamless Pixel Cloudscape with Sparkles_22
+  - first:
+      213: -7584626948966307220
+    second: Seamless Pixel Cloudscape with Sparkles_23
+  - first:
+      213: 7122240807201939854
+    second: Seamless Pixel Cloudscape with Sparkles_24
+  - first:
+      213: 603982824238860829
+    second: Seamless Pixel Cloudscape with Sparkles_25
+  - first:
+      213: -4761021144573656358
+    second: Seamless Pixel Cloudscape with Sparkles_26
+  - first:
+      213: -1653418829823707484
+    second: Seamless Pixel Cloudscape with Sparkles_27
+  - first:
+      213: -8895102585866147339
+    second: Seamless Pixel Cloudscape with Sparkles_28
+  - first:
+      213: -5194668915056884135
+    second: Seamless Pixel Cloudscape with Sparkles_29
+  - first:
+      213: 3581146104635209564
+    second: Seamless Pixel Cloudscape with Sparkles_30
+  - first:
+      213: 6924181183473768021
+    second: Seamless Pixel Cloudscape with Sparkles_31
+  - first:
+      213: 7196801467656774049
+    second: Seamless Pixel Cloudscape with Sparkles_32
+  - first:
+      213: 3219496923557802494
+    second: Seamless Pixel Cloudscape with Sparkles_33
+  - first:
+      213: -4310302794509634852
+    second: Seamless Pixel Cloudscape with Sparkles_34
+  - first:
+      213: -7643030627319165235
+    second: Seamless Pixel Cloudscape with Sparkles_35
+  - first:
+      213: 4707187021490439966
+    second: Seamless Pixel Cloudscape with Sparkles_36
+  - first:
+      213: -3044522073070799859
+    second: Seamless Pixel Cloudscape with Sparkles_37
+  - first:
+      213: 3285417733395380477
+    second: Seamless Pixel Cloudscape with Sparkles_38
+  - first:
+      213: -7854144834734345130
+    second: Seamless Pixel Cloudscape with Sparkles_39
+  - first:
+      213: 9101345953092156949
+    second: Seamless Pixel Cloudscape with Sparkles_40
+  - first:
+      213: -2047278018294961568
+    second: Seamless Pixel Cloudscape with Sparkles_41
+  - first:
+      213: -7804367642689694104
+    second: Seamless Pixel Cloudscape with Sparkles_42
+  - first:
+      213: -3693710139962026270
+    second: Seamless Pixel Cloudscape with Sparkles_43
+  - first:
+      213: -1504799724035448331
+    second: Seamless Pixel Cloudscape with Sparkles_44
+  - first:
+      213: 7099824347696659226
+    second: Seamless Pixel Cloudscape with Sparkles_45
+  - first:
+      213: -7547373717083684347
+    second: Seamless Pixel Cloudscape with Sparkles_46
+  - first:
+      213: -5340045687723257708
+    second: Seamless Pixel Cloudscape with Sparkles_47
+  - first:
+      213: -3527208069894639662
+    second: Seamless Pixel Cloudscape with Sparkles_48
+  - first:
+      213: 5133944309328864169
+    second: Seamless Pixel Cloudscape with Sparkles_49
+  - first:
+      213: -4371296732944556995
+    second: Seamless Pixel Cloudscape with Sparkles_50
+  - first:
+      213: 6820145796593095569
+    second: Seamless Pixel Cloudscape with Sparkles_51
+  - first:
+      213: 3144461709565708149
+    second: Seamless Pixel Cloudscape with Sparkles_52
+  - first:
+      213: 8982558921060589520
+    second: Seamless Pixel Cloudscape with Sparkles_53
+  - first:
+      213: -4970555173646308505
+    second: Seamless Pixel Cloudscape with Sparkles_54
+  - first:
+      213: -1380199545565613732
+    second: Seamless Pixel Cloudscape with Sparkles_55
+  - first:
+      213: -4232405108243107175
+    second: Seamless Pixel Cloudscape with Sparkles_56
+  - first:
+      213: -3382836834458265413
+    second: Seamless Pixel Cloudscape with Sparkles_57
+  - first:
+      213: -7732184434420093569
+    second: Seamless Pixel Cloudscape with Sparkles_58
+  - first:
+      213: 5793715449775089096
+    second: Seamless Pixel Cloudscape with Sparkles_59
+  - first:
+      213: 6981590550978207881
+    second: Seamless Pixel Cloudscape with Sparkles_60
+  - first:
+      213: -4289337744088268469
+    second: Seamless Pixel Cloudscape with Sparkles_61
+  - first:
+      213: -4990720258114192245
+    second: Seamless Pixel Cloudscape with Sparkles_62
+  - first:
+      213: -7729184843740554615
+    second: Seamless Pixel Cloudscape with Sparkles_63
+  - first:
+      213: -4380350311570351239
+    second: Seamless Pixel Cloudscape with Sparkles_64
+  - first:
+      213: -3457698479783614348
+    second: Seamless Pixel Cloudscape with Sparkles_65
+  - first:
+      213: 4725164271352842984
+    second: Seamless Pixel Cloudscape with Sparkles_66
+  - first:
+      213: -720262784411815896
+    second: Seamless Pixel Cloudscape with Sparkles_67
+  - first:
+      213: 6944010869053655107
+    second: Seamless Pixel Cloudscape with Sparkles_68
+  - first:
+      213: -5946811869495984592
+    second: Seamless Pixel Cloudscape with Sparkles_69
+  - first:
+      213: -7607012878496399400
+    second: Seamless Pixel Cloudscape with Sparkles_70
+  - first:
+      213: 8763799643274785380
+    second: Seamless Pixel Cloudscape with Sparkles_71
+  - first:
+      213: 2400498085323994264
+    second: Seamless Pixel Cloudscape with Sparkles_72
+  - first:
+      213: 730404703635764852
+    second: Seamless Pixel Cloudscape with Sparkles_73
+  - first:
+      213: -5685447142694145648
+    second: Seamless Pixel Cloudscape with Sparkles_74
+  - first:
+      213: 7805215888619048714
+    second: Seamless Pixel Cloudscape with Sparkles_75
+  - first:
+      213: -7251272661190014732
+    second: Seamless Pixel Cloudscape with Sparkles_76
+  - first:
+      213: 3629004016668631862
+    second: Seamless Pixel Cloudscape with Sparkles_77
+  - first:
+      213: 6823223066801429592
+    second: Seamless Pixel Cloudscape with Sparkles_78
+  - first:
+      213: -8247371175170588979
+    second: Seamless Pixel Cloudscape with Sparkles_79
+  - first:
+      213: -6739694673121162199
+    second: Seamless Pixel Cloudscape with Sparkles_80
+  - first:
+      213: -6534059631158039846
+    second: Seamless Pixel Cloudscape with Sparkles_81
+  - first:
+      213: 2580451752295873059
+    second: Seamless Pixel Cloudscape with Sparkles_82
+  - first:
+      213: 3847996966834493073
+    second: Seamless Pixel Cloudscape with Sparkles_83
+  - first:
+      213: 2376506456497739173
+    second: Seamless Pixel Cloudscape with Sparkles_84
+  - first:
+      213: 3687879108133262079
+    second: Seamless Pixel Cloudscape with Sparkles_85
+  - first:
+      213: -1218643774126542934
+    second: Seamless Pixel Cloudscape with Sparkles_86
+  - first:
+      213: -80354225920131638
+    second: Seamless Pixel Cloudscape with Sparkles_87
+  - first:
+      213: 3959342355300361494
+    second: Seamless Pixel Cloudscape with Sparkles_88
+  - first:
+      213: -5916584776812091229
+    second: Seamless Pixel Cloudscape with Sparkles_89
+  - first:
+      213: -6245481043113861417
+    second: Seamless Pixel Cloudscape with Sparkles_90
+  - first:
+      213: -4785420209398740381
+    second: Seamless Pixel Cloudscape with Sparkles_91
+  - first:
+      213: 1856990991161830928
+    second: Seamless Pixel Cloudscape with Sparkles_92
+  - first:
+      213: 8460490327850019206
+    second: Seamless Pixel Cloudscape with Sparkles_93
+  - first:
+      213: 3789056530629616789
+    second: Seamless Pixel Cloudscape with Sparkles_94
+  - first:
+      213: -2546967914644677493
+    second: Seamless Pixel Cloudscape with Sparkles_95
+  - first:
+      213: -8561703468934697635
+    second: Seamless Pixel Cloudscape with Sparkles_96
+  - first:
+      213: 2467084953284476587
+    second: Seamless Pixel Cloudscape with Sparkles_97
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seamless Pixel Cloudscape with Sparkles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0bbea51b75fb920800000000000000
+      internalID: 3008219495353004201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d6a830d33d7f2c343992c1258c4cd139
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2172.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Seamless Pixel Cloudscape with Sparkles_0: 3008219495353004201
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

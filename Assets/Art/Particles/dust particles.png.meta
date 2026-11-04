@@ -1,0 +1,1479 @@
+fileFormatVersion: 2
+guid: 212b1c1b3eb3ea442a63c7c28a686d75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6093187427123882508
+    second: Barkour pixel particle sprite sheet_0
+  - first:
+      213: 5356724679232650636
+    second: Barkour pixel particle sprite sheet_1
+  - first:
+      213: 7677260747956289146
+    second: Barkour pixel particle sprite sheet_2
+  - first:
+      213: -6589432684405342219
+    second: Barkour pixel particle sprite sheet_3
+  - first:
+      213: 420764997715005097
+    second: Barkour pixel particle sprite sheet_4
+  - first:
+      213: 6654305748048217736
+    second: Barkour pixel particle sprite sheet_5
+  - first:
+      213: -5672633853748022766
+    second: Barkour pixel particle sprite sheet_6
+  - first:
+      213: -5921145554994215646
+    second: Barkour pixel particle sprite sheet_7
+  - first:
+      213: -8145453659686760840
+    second: Barkour pixel particle sprite sheet_8
+  - first:
+      213: 4675542857681275869
+    second: Barkour pixel particle sprite sheet_9
+  - first:
+      213: -5269768347559496819
+    second: Barkour pixel particle sprite sheet_10
+  - first:
+      213: 5590496228605152373
+    second: Barkour pixel particle sprite sheet_11
+  - first:
+      213: -1278679452015780689
+    second: Barkour pixel particle sprite sheet_12
+  - first:
+      213: 5287999108361922112
+    second: Barkour pixel particle sprite sheet_13
+  - first:
+      213: 5691523993643843130
+    second: Barkour pixel particle sprite sheet_14
+  - first:
+      213: 8835353292767539895
+    second: Barkour pixel particle sprite sheet_15
+  - first:
+      213: -7875067088775616819
+    second: Barkour pixel particle sprite sheet_16
+  - first:
+      213: 1836545542560327890
+    second: Barkour pixel particle sprite sheet_17
+  - first:
+      213: 8637405303564646458
+    second: Barkour pixel particle sprite sheet_18
+  - first:
+      213: -6235792214931255670
+    second: Barkour pixel particle sprite sheet_19
+  - first:
+      213: -7677748439343319196
+    second: Barkour pixel particle sprite sheet_20
+  - first:
+      213: 1117371843055274284
+    second: Barkour pixel particle sprite sheet_21
+  - first:
+      213: -650874297103819314
+    second: Barkour pixel particle sprite sheet_22
+  - first:
+      213: 9214499809828433909
+    second: Barkour pixel particle sprite sheet_23
+  - first:
+      213: -5581706629820136075
+    second: Barkour pixel particle sprite sheet_24
+  - first:
+      213: 46057222069086706
+    second: Barkour pixel particle sprite sheet_25
+  - first:
+      213: 5508846015078484809
+    second: Barkour pixel particle sprite sheet_26
+  - first:
+      213: 3370589551181523817
+    second: Barkour pixel particle sprite sheet_27
+  - first:
+      213: -6323491646445505451
+    second: Barkour pixel particle sprite sheet_28
+  - first:
+      213: 7448857971309642938
+    second: Barkour pixel particle sprite sheet_29
+  - first:
+      213: -6825630840731243562
+    second: Barkour pixel particle sprite sheet_30
+  - first:
+      213: 7608113877736419604
+    second: Barkour pixel particle sprite sheet_31
+  - first:
+      213: -6758400082275414975
+    second: Barkour pixel particle sprite sheet_32
+  - first:
+      213: 4787446980084434816
+    second: Barkour pixel particle sprite sheet_33
+  - first:
+      213: 4079858049488853716
+    second: Barkour pixel particle sprite sheet_34
+  - first:
+      213: -332033392246312258
+    second: Barkour pixel particle sprite sheet_35
+  - first:
+      213: -4780826671404938362
+    second: Barkour pixel particle sprite sheet_36
+  - first:
+      213: -3905093129757326877
+    second: Barkour pixel particle sprite sheet_37
+  - first:
+      213: 4159607895815464825
+    second: Barkour pixel particle sprite sheet_38
+  - first:
+      213: 5435462125063700848
+    second: Barkour pixel particle sprite sheet_39
+  - first:
+      213: 6549486358278674409
+    second: Barkour pixel particle sprite sheet_40
+  - first:
+      213: 3046982847544439101
+    second: Barkour pixel particle sprite sheet_41
+  - first:
+      213: -4585717440332204346
+    second: Barkour pixel particle sprite sheet_42
+  - first:
+      213: -1284951259359936056
+    second: Barkour pixel particle sprite sheet_43
+  - first:
+      213: 9216096727147765775
+    second: Barkour pixel particle sprite sheet_44
+  - first:
+      213: -1573391924043407822
+    second: Barkour pixel particle sprite sheet_45
+  - first:
+      213: -3988054849607931315
+    second: Barkour pixel particle sprite sheet_46
+  - first:
+      213: 2756694586028091811
+    second: Barkour pixel particle sprite sheet_47
+  - first:
+      213: -6235984100686859796
+    second: Barkour pixel particle sprite sheet_48
+  - first:
+      213: 2108670508676943620
+    second: Barkour pixel particle sprite sheet_49
+  - first:
+      213: -5973956250907949791
+    second: Barkour pixel particle sprite sheet_50
+  - first:
+      213: 8017601593127756728
+    second: Barkour pixel particle sprite sheet_51
+  - first:
+      213: 7317367712933551078
+    second: Barkour pixel particle sprite sheet_52
+  - first:
+      213: 7460043829719167374
+    second: Barkour pixel particle sprite sheet_53
+  - first:
+      213: 6928154892193634349
+    second: Barkour pixel particle sprite sheet_54
+  - first:
+      213: -6974024357284550302
+    second: Barkour pixel particle sprite sheet_55
+  - first:
+      213: 771184478589577917
+    second: Barkour pixel particle sprite sheet_56
+  - first:
+      213: 4629366765565127734
+    second: Barkour pixel particle sprite sheet_57
+  - first:
+      213: -3369509341807474617
+    second: Barkour pixel particle sprite sheet_58
+  - first:
+      213: 6824949328721860063
+    second: Barkour pixel particle sprite sheet_59
+  - first:
+      213: -3449433239268892089
+    second: Barkour pixel particle sprite sheet_60
+  - first:
+      213: -3005004660816487256
+    second: Barkour pixel particle sprite sheet_61
+  - first:
+      213: 478054189808010540
+    second: Barkour pixel particle sprite sheet_62
+  - first:
+      213: -2391380162609561608
+    second: Barkour pixel particle sprite sheet_63
+  - first:
+      213: 6032142765339459174
+    second: Barkour pixel particle sprite sheet_64
+  - first:
+      213: -971267415937065836
+    second: Barkour pixel particle sprite sheet_65
+  - first:
+      213: 8168237819098476283
+    second: Barkour pixel particle sprite sheet_66
+  - first:
+      213: -4697080097335992593
+    second: Barkour pixel particle sprite sheet_67
+  - first:
+      213: -76720479304144735
+    second: Barkour pixel particle sprite sheet_68
+  - first:
+      213: 9138178931912076440
+    second: Barkour pixel particle sprite sheet_69
+  - first:
+      213: 2526809971924853484
+    second: Barkour pixel particle sprite sheet_70
+  - first:
+      213: 4224050378021172069
+    second: Barkour pixel particle sprite sheet_71
+  - first:
+      213: 6513954461364781799
+    second: Barkour pixel particle sprite sheet_72
+  - first:
+      213: 4127992273716796015
+    second: Barkour pixel particle sprite sheet_73
+  - first:
+      213: -5969008272535189828
+    second: Barkour pixel particle sprite sheet_74
+  - first:
+      213: 2873682588780545274
+    second: Barkour pixel particle sprite sheet_75
+  - first:
+      213: 9032755888745692931
+    second: Barkour pixel particle sprite sheet_76
+  - first:
+      213: -4026811333224794281
+    second: Barkour pixel particle sprite sheet_77
+  - first:
+      213: -8950949595535493157
+    second: Barkour pixel particle sprite sheet_78
+  - first:
+      213: 350647329507448051
+    second: Barkour pixel particle sprite sheet_79
+  - first:
+      213: -2611259308880754766
+    second: Barkour pixel particle sprite sheet_80
+  - first:
+      213: 5456898040619122141
+    second: Barkour pixel particle sprite sheet_81
+  - first:
+      213: -2720399583808287580
+    second: Barkour pixel particle sprite sheet_82
+  - first:
+      213: 4524378866461212937
+    second: Barkour pixel particle sprite sheet_83
+  - first:
+      213: 5179896376377073288
+    second: Barkour pixel particle sprite sheet_84
+  - first:
+      213: 3374319531629731829
+    second: Barkour pixel particle sprite sheet_85
+  - first:
+      213: 4257588816166182451
+    second: Barkour pixel particle sprite sheet_86
+  - first:
+      213: 4528941859834480035
+    second: Barkour pixel particle sprite sheet_87
+  - first:
+      213: 7210173629155992256
+    second: Barkour pixel particle sprite sheet_88
+  - first:
+      213: 2914966148717387968
+    second: Barkour pixel particle sprite sheet_89
+  - first:
+      213: 8872593089731273909
+    second: Barkour pixel particle sprite sheet_90
+  - first:
+      213: -2499918852345013316
+    second: Barkour pixel particle sprite sheet_91
+  - first:
+      213: -7342416960505630048
+    second: Barkour pixel particle sprite sheet_92
+  - first:
+      213: -1387223645419757257
+    second: Barkour pixel particle sprite sheet_93
+  - first:
+      213: -4595313178393701104
+    second: Barkour pixel particle sprite sheet_94
+  - first:
+      213: 8230910457011143331
+    second: Barkour pixel particle sprite sheet_95
+  - first:
+      213: 4789920380540181913
+    second: Barkour pixel particle sprite sheet_96
+  - first:
+      213: 4674032547350355845
+    second: Barkour pixel particle sprite sheet_97
+  - first:
+      213: 5457791170121738292
+    second: Barkour pixel particle sprite sheet_98
+  - first:
+      213: -3405703754082217617
+    second: Barkour pixel particle sprite sheet_99
+  - first:
+      213: -2174188437919774038
+    second: Barkour pixel particle sprite sheet_100
+  - first:
+      213: -1995637481155626695
+    second: Barkour pixel particle sprite sheet_101
+  - first:
+      213: -7667329560654413178
+    second: Barkour pixel particle sprite sheet_102
+  - first:
+      213: -2815222488942034624
+    second: Barkour pixel particle sprite sheet_103
+  - first:
+      213: -6588301063472527702
+    second: Barkour pixel particle sprite sheet_104
+  - first:
+      213: 1539095566596821478
+    second: Barkour pixel particle sprite sheet_105
+  - first:
+      213: -7061049149661159272
+    second: Barkour pixel particle sprite sheet_106
+  - first:
+      213: -90965364438306162
+    second: Barkour pixel particle sprite sheet_107
+  - first:
+      213: -6840763416824683506
+    second: Barkour pixel particle sprite sheet_108
+  - first:
+      213: 844827819978727341
+    second: Barkour pixel particle sprite sheet_109
+  - first:
+      213: -2329131179106211536
+    second: Barkour pixel particle sprite sheet_110
+  - first:
+      213: -8116150921725622000
+    second: Barkour pixel particle sprite sheet_111
+  - first:
+      213: 3051630114415169497
+    second: Barkour pixel particle sprite sheet_112
+  - first:
+      213: -2156057054358325531
+    second: Barkour pixel particle sprite sheet_113
+  - first:
+      213: -430294904907187040
+    second: Barkour pixel particle sprite sheet_114
+  - first:
+      213: -8018423049324487085
+    second: Barkour pixel particle sprite sheet_115
+  - first:
+      213: -3031257852569812021
+    second: Barkour pixel particle sprite sheet_116
+  - first:
+      213: 7843874082935536414
+    second: Barkour pixel particle sprite sheet_117
+  - first:
+      213: -4812112113879260569
+    second: Barkour pixel particle sprite sheet_118
+  - first:
+      213: -8801801571627287068
+    second: Barkour pixel particle sprite sheet_119
+  - first:
+      213: 5793144400282774048
+    second: Barkour pixel particle sprite sheet_120
+  - first:
+      213: -3057151007615044253
+    second: Barkour pixel particle sprite sheet_121
+  - first:
+      213: -8996874799793694469
+    second: Barkour pixel particle sprite sheet_122
+  - first:
+      213: -3875991489312070049
+    second: Barkour pixel particle sprite sheet_123
+  - first:
+      213: 8030291361325770268
+    second: Barkour pixel particle sprite sheet_124
+  - first:
+      213: -8787241483333944155
+    second: Barkour pixel particle sprite sheet_125
+  - first:
+      213: -1127939192014647079
+    second: Barkour pixel particle sprite sheet_126
+  - first:
+      213: -2033504547172698310
+    second: Barkour pixel particle sprite sheet_127
+  - first:
+      213: -6170775884523873951
+    second: Barkour pixel particle sprite sheet_128
+  - first:
+      213: -7853907461530316399
+    second: Barkour pixel particle sprite sheet_129
+  - first:
+      213: 3719383979242130821
+    second: Barkour pixel particle sprite sheet_130
+  - first:
+      213: 8816955255452206147
+    second: Barkour pixel particle sprite sheet_131
+  - first:
+      213: 4438976999347399013
+    second: Barkour pixel particle sprite sheet_132
+  - first:
+      213: -5448602842238936663
+    second: Barkour pixel particle sprite sheet_133
+  - first:
+      213: -8129266677254731849
+    second: Barkour pixel particle sprite sheet_134
+  - first:
+      213: 4011930181403653083
+    second: Barkour pixel particle sprite sheet_135
+  - first:
+      213: -4882801023661955766
+    second: Barkour pixel particle sprite sheet_136
+  - first:
+      213: 8657997772320018162
+    second: Barkour pixel particle sprite sheet_137
+  - first:
+      213: -4265869473178363186
+    second: Barkour pixel particle sprite sheet_138
+  - first:
+      213: -6670359868041709119
+    second: Barkour pixel particle sprite sheet_139
+  - first:
+      213: 139504311639444148
+    second: Barkour pixel particle sprite sheet_140
+  - first:
+      213: 4164870087475852458
+    second: Barkour pixel particle sprite sheet_141
+  - first:
+      213: -281349117868918436
+    second: Barkour pixel particle sprite sheet_142
+  - first:
+      213: 8175455851267328269
+    second: Barkour pixel particle sprite sheet_143
+  - first:
+      213: 2283172427457906448
+    second: Barkour pixel particle sprite sheet_144
+  - first:
+      213: 1164994174617999356
+    second: Barkour pixel particle sprite sheet_145
+  - first:
+      213: -5140813602773881793
+    second: Barkour pixel particle sprite sheet_146
+  - first:
+      213: 5260206391161928179
+    second: Barkour pixel particle sprite sheet_147
+  - first:
+      213: 8903231838407435610
+    second: Barkour pixel particle sprite sheet_148
+  - first:
+      213: 7580623240043256448
+    second: Barkour pixel particle sprite sheet_149
+  - first:
+      213: 6033790398567286263
+    second: Barkour pixel particle sprite sheet_150
+  - first:
+      213: 2519271830495518454
+    second: Barkour pixel particle sprite sheet_151
+  - first:
+      213: 8424322028281271164
+    second: Barkour pixel particle sprite sheet_152
+  - first:
+      213: 1904845889014873131
+    second: Barkour pixel particle sprite sheet_153
+  - first:
+      213: 4448618211335353774
+    second: Barkour pixel particle sprite sheet_154
+  - first:
+      213: -7175999970174129379
+    second: Barkour pixel particle sprite sheet_155
+  - first:
+      213: 2769629845850548875
+    second: Barkour pixel particle sprite sheet_156
+  - first:
+      213: -5186265825288664885
+    second: Barkour pixel particle sprite sheet_157
+  - first:
+      213: -7917757665467223318
+    second: Barkour pixel particle sprite sheet_158
+  - first:
+      213: 5157908373554545515
+    second: Barkour pixel particle sprite sheet_159
+  - first:
+      213: 4284208540852270976
+    second: Barkour pixel particle sprite sheet_160
+  - first:
+      213: 3595379501211644617
+    second: Barkour pixel particle sprite sheet_161
+  - first:
+      213: -7467354122303232452
+    second: Barkour pixel particle sprite sheet_162
+  - first:
+      213: -941634281571266077
+    second: Barkour pixel particle sprite sheet_163
+  - first:
+      213: -3958591122447120308
+    second: Barkour pixel particle sprite sheet_164
+  - first:
+      213: 7305666798252288588
+    second: Barkour pixel particle sprite sheet_165
+  - first:
+      213: -8404621010030366781
+    second: Barkour pixel particle sprite sheet_166
+  - first:
+      213: 2363932615156232316
+    second: Barkour pixel particle sprite sheet_167
+  - first:
+      213: -4275110934886897695
+    second: Barkour pixel particle sprite sheet_168
+  - first:
+      213: 7011414949418861078
+    second: Barkour pixel particle sprite sheet_169
+  - first:
+      213: 3694673381241699835
+    second: Barkour pixel particle sprite sheet_170
+  - first:
+      213: -1239064014093771688
+    second: Barkour pixel particle sprite sheet_171
+  - first:
+      213: -1632042662348373391
+    second: Barkour pixel particle sprite sheet_172
+  - first:
+      213: 5789370840040651891
+    second: Barkour pixel particle sprite sheet_173
+  - first:
+      213: 8297700920660551270
+    second: Barkour pixel particle sprite sheet_174
+  - first:
+      213: 6917119006001584203
+    second: Barkour pixel particle sprite sheet_175
+  - first:
+      213: -1863877065015294238
+    second: Barkour pixel particle sprite sheet_176
+  - first:
+      213: -3959436290629114849
+    second: Barkour pixel particle sprite sheet_177
+  - first:
+      213: 4995511924549042470
+    second: Barkour pixel particle sprite sheet_178
+  - first:
+      213: -1073072756542865809
+    second: Barkour pixel particle sprite sheet_179
+  - first:
+      213: -6457992872297166162
+    second: Barkour pixel particle sprite sheet_180
+  - first:
+      213: -8056624173960349360
+    second: Barkour pixel particle sprite sheet_181
+  - first:
+      213: 3028281947312515339
+    second: Barkour pixel particle sprite sheet_182
+  - first:
+      213: -354904576424825350
+    second: Barkour pixel particle sprite sheet_183
+  - first:
+      213: -8699439313094189046
+    second: Barkour pixel particle sprite sheet_184
+  - first:
+      213: 2643278888480761047
+    second: Barkour pixel particle sprite sheet_185
+  - first:
+      213: 6206625234931000984
+    second: Barkour pixel particle sprite sheet_186
+  - first:
+      213: -6598436703142997628
+    second: Barkour pixel particle sprite sheet_187
+  - first:
+      213: 5284155421240207813
+    second: Barkour pixel particle sprite sheet_188
+  - first:
+      213: 5717294389009310879
+    second: Barkour pixel particle sprite sheet_189
+  - first:
+      213: 5150953234664977172
+    second: Barkour pixel particle sprite sheet_190
+  - first:
+      213: -2298136364332413912
+    second: Barkour pixel particle sprite sheet_191
+  - first:
+      213: 9120879527174208888
+    second: Barkour pixel particle sprite sheet_192
+  - first:
+      213: -7521877417158636064
+    second: Barkour pixel particle sprite sheet_193
+  - first:
+      213: 2832822004591834075
+    second: Barkour pixel particle sprite sheet_194
+  - first:
+      213: -7821319956633842650
+    second: Barkour pixel particle sprite sheet_195
+  - first:
+      213: 28247621255628095
+    second: Barkour pixel particle sprite sheet_196
+  - first:
+      213: 8023019516247500189
+    second: Barkour pixel particle sprite sheet_197
+  - first:
+      213: 3890124502673454029
+    second: Barkour pixel particle sprite sheet_198
+  - first:
+      213: 2051315447797083099
+    second: Barkour pixel particle sprite sheet_199
+  - first:
+      213: 780873832572866583
+    second: Barkour pixel particle sprite sheet_200
+  - first:
+      213: -4735208387590565095
+    second: Barkour pixel particle sprite sheet_201
+  - first:
+      213: 7302126735146824614
+    second: Barkour pixel particle sprite sheet_202
+  - first:
+      213: -3079372246145630992
+    second: Barkour pixel particle sprite sheet_203
+  - first:
+      213: 3578287202253537855
+    second: Barkour pixel particle sprite sheet_204
+  - first:
+      213: -3396475174892404165
+    second: Barkour pixel particle sprite sheet_205
+  - first:
+      213: 7336825195512559022
+    second: Barkour pixel particle sprite sheet_206
+  - first:
+      213: 2354972423140751400
+    second: Barkour pixel particle sprite sheet_207
+  - first:
+      213: 2945835789550169115
+    second: Barkour pixel particle sprite sheet_208
+  - first:
+      213: -147638068158898502
+    second: Barkour pixel particle sprite sheet_209
+  - first:
+      213: 552236480812434378
+    second: Barkour pixel particle sprite sheet_210
+  - first:
+      213: 1310135023762662690
+    second: Barkour pixel particle sprite sheet_211
+  - first:
+      213: -7621828848183388347
+    second: Barkour pixel particle sprite sheet_212
+  - first:
+      213: 9197590169778631588
+    second: Barkour pixel particle sprite sheet_213
+  - first:
+      213: -7617608213662210500
+    second: Barkour pixel particle sprite sheet_214
+  - first:
+      213: -6446353889844939148
+    second: Barkour pixel particle sprite sheet_215
+  - first:
+      213: -4329407682317362980
+    second: Barkour pixel particle sprite sheet_216
+  - first:
+      213: -1880472176197699078
+    second: Barkour pixel particle sprite sheet_217
+  - first:
+      213: 2490008306900938480
+    second: Barkour pixel particle sprite sheet_218
+  - first:
+      213: 8372021805660273220
+    second: Barkour pixel particle sprite sheet_219
+  - first:
+      213: -3784979842505908581
+    second: Barkour pixel particle sprite sheet_220
+  - first:
+      213: 7750274740030802087
+    second: Barkour pixel particle sprite sheet_221
+  - first:
+      213: 9077237137063777269
+    second: Barkour pixel particle sprite sheet_222
+  - first:
+      213: -5674568913708935303
+    second: Barkour pixel particle sprite sheet_223
+  - first:
+      213: -2027761976419897972
+    second: Barkour pixel particle sprite sheet_224
+  - first:
+      213: 3239607192950771948
+    second: Barkour pixel particle sprite sheet_225
+  - first:
+      213: -2940600625506398525
+    second: Barkour pixel particle sprite sheet_226
+  - first:
+      213: -5081583363706855449
+    second: Barkour pixel particle sprite sheet_227
+  - first:
+      213: -5495872457271195732
+    second: Barkour pixel particle sprite sheet_228
+  - first:
+      213: 5426096484912538780
+    second: Barkour pixel particle sprite sheet_229
+  - first:
+      213: 9122624448478494835
+    second: Barkour pixel particle sprite sheet_230
+  - first:
+      213: 347121318334273190
+    second: Barkour pixel particle sprite sheet_231
+  - first:
+      213: 5511381654427680683
+    second: Barkour pixel particle sprite sheet_232
+  - first:
+      213: -9190569494964254558
+    second: Barkour pixel particle sprite sheet_233
+  - first:
+      213: 2581524281573554910
+    second: Barkour pixel particle sprite sheet_234
+  - first:
+      213: 8311612163759657611
+    second: Barkour pixel particle sprite sheet_235
+  - first:
+      213: -3838324616246896071
+    second: Barkour pixel particle sprite sheet_236
+  - first:
+      213: -1502304228773219667
+    second: Barkour pixel particle sprite sheet_237
+  - first:
+      213: -4332779152297990216
+    second: Barkour pixel particle sprite sheet_238
+  - first:
+      213: -2457622885594274576
+    second: Barkour pixel particle sprite sheet_239
+  - first:
+      213: -6052996106500930296
+    second: Barkour pixel particle sprite sheet_240
+  - first:
+      213: -6820115334360871049
+    second: Barkour pixel particle sprite sheet_241
+  - first:
+      213: 1732445531902711043
+    second: Barkour pixel particle sprite sheet_242
+  - first:
+      213: 192011568365668076
+    second: Barkour pixel particle sprite sheet_243
+  - first:
+      213: 4612587883669038554
+    second: Barkour pixel particle sprite sheet_244
+  - first:
+      213: 8992067350680623947
+    second: Barkour pixel particle sprite sheet_245
+  - first:
+      213: 6643263030537678044
+    second: Barkour pixel particle sprite sheet_246
+  - first:
+      213: 3921483340782067117
+    second: Barkour pixel particle sprite sheet_247
+  - first:
+      213: 7528007597819280665
+    second: Barkour pixel particle sprite sheet_248
+  - first:
+      213: 4811027030938423880
+    second: Barkour pixel particle sprite sheet_249
+  - first:
+      213: 4732073463754464439
+    second: Barkour pixel particle sprite sheet_250
+  - first:
+      213: -2632638077216553558
+    second: Barkour pixel particle sprite sheet_251
+  - first:
+      213: -1555963516030109857
+    second: Barkour pixel particle sprite sheet_252
+  - first:
+      213: 8406270892414431638
+    second: Barkour pixel particle sprite sheet_253
+  - first:
+      213: 6096463100394985929
+    second: Barkour pixel particle sprite sheet_254
+  - first:
+      213: -5541623851259051658
+    second: Barkour pixel particle sprite sheet_255
+  - first:
+      213: -6295328348163634879
+    second: Barkour pixel particle sprite sheet_256
+  - first:
+      213: -1013983884346446866
+    second: Barkour pixel particle sprite sheet_257
+  - first:
+      213: 4092279331731719647
+    second: Barkour pixel particle sprite sheet_258
+  - first:
+      213: 8700653817195865904
+    second: Barkour pixel particle sprite sheet_259
+  - first:
+      213: 8675074027931026097
+    second: Barkour pixel particle sprite sheet_260
+  - first:
+      213: -3828538085872791288
+    second: Barkour pixel particle sprite sheet_261
+  - first:
+      213: -3929882360339585922
+    second: Barkour pixel particle sprite sheet_262
+  - first:
+      213: 5163945785668670202
+    second: Barkour pixel particle sprite sheet_263
+  - first:
+      213: -5347070135641440214
+    second: Barkour pixel particle sprite sheet_264
+  - first:
+      213: -5869193219198485916
+    second: Barkour pixel particle sprite sheet_265
+  - first:
+      213: -4755158382937094169
+    second: Barkour pixel particle sprite sheet_266
+  - first:
+      213: 2879234318338820779
+    second: Barkour pixel particle sprite sheet_267
+  - first:
+      213: -7126468016461469386
+    second: Barkour pixel particle sprite sheet_268
+  - first:
+      213: -3068431958213052616
+    second: Barkour pixel particle sprite sheet_269
+  - first:
+      213: 1801576934942523190
+    second: Barkour pixel particle sprite sheet_270
+  - first:
+      213: 8197552397722842850
+    second: Barkour pixel particle sprite sheet_271
+  - first:
+      213: 7679672011549060554
+    second: Barkour pixel particle sprite sheet_272
+  - first:
+      213: 7398409556186501475
+    second: Barkour pixel particle sprite sheet_273
+  - first:
+      213: 304196649224246808
+    second: Barkour pixel particle sprite sheet_274
+  - first:
+      213: 7000394324579414952
+    second: Barkour pixel particle sprite sheet_275
+  - first:
+      213: -8975112682412590616
+    second: Barkour pixel particle sprite sheet_276
+  - first:
+      213: -5525454912060253902
+    second: Barkour pixel particle sprite sheet_277
+  - first:
+      213: -430024852478699477
+    second: Barkour pixel particle sprite sheet_278
+  - first:
+      213: -5829609603252457499
+    second: Barkour pixel particle sprite sheet_279
+  - first:
+      213: -2782775103665270708
+    second: Barkour pixel particle sprite sheet_280
+  - first:
+      213: -6836927717520582955
+    second: Barkour pixel particle sprite sheet_281
+  - first:
+      213: -8802037616855189968
+    second: Barkour pixel particle sprite sheet_282
+  - first:
+      213: -7358861624907723922
+    second: Barkour pixel particle sprite sheet_283
+  - first:
+      213: -6640290786277784759
+    second: Barkour pixel particle sprite sheet_284
+  - first:
+      213: 2858335267358089379
+    second: Barkour pixel particle sprite sheet_285
+  - first:
+      213: 5828751862512670637
+    second: Barkour pixel particle sprite sheet_286
+  - first:
+      213: -4547555875562506542
+    second: Barkour pixel particle sprite sheet_287
+  - first:
+      213: 4319056957066653694
+    second: Barkour pixel particle sprite sheet_288
+  - first:
+      213: -2936240868597747708
+    second: Barkour pixel particle sprite sheet_289
+  - first:
+      213: -3650246484963137647
+    second: Barkour pixel particle sprite sheet_290
+  - first:
+      213: 1343074009430316899
+    second: Barkour pixel particle sprite sheet_291
+  - first:
+      213: 5287674889854419523
+    second: Barkour pixel particle sprite sheet_292
+  - first:
+      213: 5851055137896314877
+    second: Barkour pixel particle sprite sheet_293
+  - first:
+      213: 4554908987022550347
+    second: Barkour pixel particle sprite sheet_294
+  - first:
+      213: 5021653607593648538
+    second: Barkour pixel particle sprite sheet_295
+  - first:
+      213: 8176544096715418609
+    second: Barkour pixel particle sprite sheet_296
+  - first:
+      213: 2598592709184557182
+    second: Barkour pixel particle sprite sheet_297
+  - first:
+      213: -8340070908596799506
+    second: Barkour pixel particle sprite sheet_298
+  - first:
+      213: -229237656886635118
+    second: Barkour pixel particle sprite sheet_299
+  - first:
+      213: -7891024319800361298
+    second: Barkour pixel particle sprite sheet_300
+  - first:
+      213: 2327710008858896378
+    second: Barkour pixel particle sprite sheet_301
+  - first:
+      213: -4648545535408297451
+    second: Barkour pixel particle sprite sheet_302
+  - first:
+      213: -4623886530807157271
+    second: Barkour pixel particle sprite sheet_303
+  - first:
+      213: 482954219237220048
+    second: Barkour pixel particle sprite sheet_304
+  - first:
+      213: -5058506100698520204
+    second: Barkour pixel particle sprite sheet_305
+  - first:
+      213: 1948943818148455744
+    second: Barkour pixel particle sprite sheet_306
+  - first:
+      213: -8332706752716073697
+    second: Barkour pixel particle sprite sheet_307
+  - first:
+      213: -1317829159763794120
+    second: Barkour pixel particle sprite sheet_308
+  - first:
+      213: -3176163171907343462
+    second: Barkour pixel particle sprite sheet_309
+  - first:
+      213: 3200304821346870484
+    second: Barkour pixel particle sprite sheet_310
+  - first:
+      213: 283548263871835722
+    second: Barkour pixel particle sprite sheet_311
+  - first:
+      213: -536746720783749921
+    second: Barkour pixel particle sprite sheet_312
+  - first:
+      213: -7202543260120153780
+    second: Barkour pixel particle sprite sheet_313
+  - first:
+      213: 4751114207347293928
+    second: Barkour pixel particle sprite sheet_314
+  - first:
+      213: -8517937731401611075
+    second: Barkour pixel particle sprite sheet_315
+  - first:
+      213: 2804539368833357348
+    second: Barkour pixel particle sprite sheet_316
+  - first:
+      213: 7248750901596210844
+    second: Barkour pixel particle sprite sheet_317
+  - first:
+      213: -2318366973630780663
+    second: Barkour pixel particle sprite sheet_318
+  - first:
+      213: -4322032434548179102
+    second: Barkour pixel particle sprite sheet_319
+  - first:
+      213: 9191168164485262373
+    second: Barkour pixel particle sprite sheet_320
+  - first:
+      213: -4770698229678094382
+    second: Barkour pixel particle sprite sheet_321
+  - first:
+      213: -7159396587464601669
+    second: Barkour pixel particle sprite sheet_322
+  - first:
+      213: 8431761857028233693
+    second: Barkour pixel particle sprite sheet_323
+  - first:
+      213: 482404533382531488
+    second: Barkour pixel particle sprite sheet_324
+  - first:
+      213: -7047522926343442153
+    second: Barkour pixel particle sprite sheet_325
+  - first:
+      213: 5301448638014775722
+    second: Barkour pixel particle sprite sheet_326
+  - first:
+      213: 5905137199866699535
+    second: Barkour pixel particle sprite sheet_327
+  - first:
+      213: -812541204310866944
+    second: Barkour pixel particle sprite sheet_328
+  - first:
+      213: -6888817289689803497
+    second: Barkour pixel particle sprite sheet_329
+  - first:
+      213: -8529063759305428605
+    second: Barkour pixel particle sprite sheet_330
+  - first:
+      213: -5587809567679692920
+    second: Barkour pixel particle sprite sheet_331
+  - first:
+      213: -7803099987281245200
+    second: Barkour pixel particle sprite sheet_332
+  - first:
+      213: -302852240454808352
+    second: Barkour pixel particle sprite sheet_333
+  - first:
+      213: 7230767207897875302
+    second: Barkour pixel particle sprite sheet_334
+  - first:
+      213: 7072905113321638450
+    second: Barkour pixel particle sprite sheet_335
+  - first:
+      213: -8477610535777600796
+    second: Barkour pixel particle sprite sheet_336
+  - first:
+      213: -5076767271872314315
+    second: Barkour pixel particle sprite sheet_337
+  - first:
+      213: 885100118881423825
+    second: Barkour pixel particle sprite sheet_338
+  - first:
+      213: 105475908294255832
+    second: Barkour pixel particle sprite sheet_339
+  - first:
+      213: 5721436426347607870
+    second: Barkour pixel particle sprite sheet_340
+  - first:
+      213: -8491445529786758468
+    second: Barkour pixel particle sprite sheet_341
+  - first:
+      213: 4953426681860785984
+    second: Barkour pixel particle sprite sheet_342
+  - first:
+      213: -489430394687093572
+    second: Barkour pixel particle sprite sheet_343
+  - first:
+      213: 5305568315385234977
+    second: Barkour pixel particle sprite sheet_344
+  - first:
+      213: 2737612639348070498
+    second: Barkour pixel particle sprite sheet_345
+  - first:
+      213: 6944423511113805780
+    second: Barkour pixel particle sprite sheet_346
+  - first:
+      213: 3860878329806676516
+    second: Barkour pixel particle sprite sheet_347
+  - first:
+      213: -539425294310028474
+    second: Barkour pixel particle sprite sheet_348
+  - first:
+      213: -8641876159240211129
+    second: Barkour pixel particle sprite sheet_349
+  - first:
+      213: 7045456262373788719
+    second: Barkour pixel particle sprite sheet_350
+  - first:
+      213: -9053495507217087930
+    second: Barkour pixel particle sprite sheet_351
+  - first:
+      213: 7781710324043063087
+    second: Barkour pixel particle sprite sheet_352
+  - first:
+      213: -3322612053490216270
+    second: Barkour pixel particle sprite sheet_353
+  - first:
+      213: 3442477323166575540
+    second: Barkour pixel particle sprite sheet_354
+  - first:
+      213: 8148063702951792886
+    second: Barkour pixel particle sprite sheet_355
+  - first:
+      213: -3342806749519239654
+    second: Barkour pixel particle sprite sheet_356
+  - first:
+      213: 4051884337522329180
+    second: Barkour pixel particle sprite sheet_357
+  - first:
+      213: -5912746008045686858
+    second: Barkour pixel particle sprite sheet_358
+  - first:
+      213: -4609815064453998316
+    second: Barkour pixel particle sprite sheet_359
+  - first:
+      213: -6519305948661573668
+    second: Barkour pixel particle sprite sheet_360
+  - first:
+      213: 1640910674812549536
+    second: Barkour pixel particle sprite sheet_361
+  - first:
+      213: -2410895257676824654
+    second: Barkour pixel particle sprite sheet_362
+  - first:
+      213: 8843087745405122424
+    second: Barkour pixel particle sprite sheet_363
+  - first:
+      213: 6878050782762751659
+    second: Barkour pixel particle sprite sheet_364
+  - first:
+      213: -932859792342952054
+    second: Barkour pixel particle sprite sheet_365
+  - first:
+      213: -3695935759005468989
+    second: Barkour pixel particle sprite sheet_366
+  - first:
+      213: -1029521454798413527
+    second: Barkour pixel particle sprite sheet_367
+  - first:
+      213: -662114276138760631
+    second: Barkour pixel particle sprite sheet_368
+  - first:
+      213: -9041243018156455030
+    second: Barkour pixel particle sprite sheet_369
+  - first:
+      213: -8264721464650851885
+    second: Barkour pixel particle sprite sheet_370
+  - first:
+      213: 8847885614751695123
+    second: Barkour pixel particle sprite sheet_371
+  - first:
+      213: -4895410305401388121
+    second: Barkour pixel particle sprite sheet_372
+  - first:
+      213: -1136280636748782625
+    second: Barkour pixel particle sprite sheet_373
+  - first:
+      213: -6515134891593812687
+    second: Barkour pixel particle sprite sheet_374
+  - first:
+      213: 3589633064757072646
+    second: Barkour pixel particle sprite sheet_375
+  - first:
+      213: -5474014291439156596
+    second: Barkour pixel particle sprite sheet_376
+  - first:
+      213: -4229851635520225332
+    second: Barkour pixel particle sprite sheet_377
+  - first:
+      213: 805357133536548038
+    second: Barkour pixel particle sprite sheet_378
+  - first:
+      213: -7689891398225216557
+    second: Barkour pixel particle sprite sheet_379
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dust particles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 836
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b15a353cc08984eab3f172ac1b9aca
+      internalID: 1186655853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 836
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1f5315210bfb545b5dd819c8d78047
+      internalID: -912680028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_2
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 836
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141fac4ccd9bc014389f7d4f20a3a328
+      internalID: -804897468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ffa75305e265468ffe8a59ba59152
+      internalID: -413125744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 418
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f922bcd6235f2404680c71cf56322288
+      internalID: -1789782070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 418
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8e04982c946a408c383274d1edb9e
+      internalID: -2085809357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f943a903e35ea341959603797178aab
+      internalID: 1212398029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f878246261ccc1a488617d88e45789a8
+      internalID: -1229791797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust particles_8
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd17d29fb82a0b479d9c869e41701c2
+      internalID: -491633697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 86882ab44d7cab6448b2d21de7716083
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":418.0,"y":418.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      dust particles_0: 1186655853
+      dust particles_1: -912680028
+      dust particles_2: -804897468
+      dust particles_3: -413125744
+      dust particles_4: -1789782070
+      dust particles_5: -2085809357
+      dust particles_6: 1212398029
+      dust particles_7: -1229791797
+      dust particles_8: -491633697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

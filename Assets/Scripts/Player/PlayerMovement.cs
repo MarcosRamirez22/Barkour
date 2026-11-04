@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+
     [Header("Movement")]
     [SerializeField] private float maxMoveSpeed = 7f;
     [SerializeField] private float acceleration = 25f;
@@ -33,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float slideDeceleration = 1f;
     [SerializeField] private float slideEndSpeed = 2f;
     [SerializeField] private float slideLockDuration = 0.15f;
+
+    [Header("Landing Dust")]
+    [SerializeField] private ParticleSystem landingDust;
+    [SerializeField, Min(0f)] private float hardLandingDustSpeed = 12f;
+    [SerializeField] private ParticleSystem slideDust;
 
     [Header("Landing Slide Boost")]
     [Tooltip("Seconds before or after landing that a slide press can earn the boost.")]
@@ -65,6 +73,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Camera gameplayCamera;
     [SerializeField] private CameraController cameraController;
     [SerializeField] private float rightBoundaryPadding = 0f;
+    private static readonly int IsCrouchingHash = Animator.StringToHash("isCrouching");
+
     private Rigidbody2D rb;
     private BoxCollider2D playerCollider;
     private Vector2 moveInput;
@@ -76,13 +86,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isSliding;
     private bool isTouchingWall;
     private bool isWallSliding;
-    // -1 = left wall, 1 = right wall
     private int wallDirection;
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
     private float slideTimer;
     private float wallJumpControlLockCounter;
-    // Used to recognize a well-timed crouch/slide press around touchdown.
     private float lastSlidePressTime = float.NegativeInfinity;
     private float lastLandingTime = float.NegativeInfinity;
     private float lastAirborneDownwardSpeed;
@@ -102,6 +110,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<BoxCollider2D>();
+        if (animator == null)
+            animator = GetComponentInChildren<Animator>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         crouchAction = InputSystem.actions.FindAction("Crouch");
@@ -121,6 +131,14 @@ public class PlayerMovement : MonoBehaviour
         HandleWallJumpControlLock();
         HandleCrouch();
         TryJump();
+        UpdateAnimation();
+        UpdateSlideDust();
+    }
+
+    private void UpdateAnimation()
+    {
+        if (animator != null)
+            animator.SetBool(IsCrouchingHash, isCrouching || isSliding);
     }
 
     private void FixedUpdate()
@@ -135,8 +153,7 @@ public class PlayerMovement : MonoBehaviour
         HandleRightCameraBoundary();
         HandleWallSlide();
         HandleGravity();
-        // Remember the latest downward speed before physics resolves contact.
-        // This must be sampled before the solver zeroes velocity on landing.
+        // Sample downward speed before the physics solver zeroes it on landing.
         if (!isGrounded && rb.linearVelocity.y < 0f)
         {
             hadAirborneFall = true;
@@ -146,8 +163,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // A contact with the top of an environment collider is a real landing.
-        // Side contacts with hurdles and walls must not count.
+        // Wall and hurdle side contacts should not trigger landing effects.
         if ((environmentLayer.value & (1 << collision.gameObject.layer)) == 0)
             return;
 
@@ -161,17 +177,21 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        // Ignore contacts made while already on the ground, such as moving
-        // across two separate chunk colliders.
+        // Crossing chunk collider boundaries should not count as a new landing.
         if (!landedOnTop || !hadAirborneFall)
             return;
 
-        // Read the impact velocity from the collision as well as our cached
-        // airborne samples. This is more reliable for long/high-speed falls.
+        // Combine cached airborne speed with contact speed for high-speed falls.
         landingDownwardSpeed = Mathf.Max(
             lastAirborneDownwardSpeed,
             Mathf.Max(0f, -collision.relativeVelocity.y)
         );
+
+        if (landingDust != null && landingDownwardSpeed >= hardLandingDustSpeed)
+        {
+            landingDust.Play();
+        }
+
         lastLandingTime = Time.time;
         landingBoostAvailable =
             landingDownwardSpeed >= landingSlideMinimumFallSpeed;
@@ -214,8 +234,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        // An airborne press can start the landing slide only while held.
-        // A new press just AFTER landing is handled by HandleCrouch().
+        // An early slide press must still be held; late presses use HandleCrouch().
         if (!crouchAction.IsPressed() || !CanStartLandingSlide())
             return;
 
@@ -238,9 +257,7 @@ public class PlayerMovement : MonoBehaviour
             landingSlideTimingWindow)
             return false;
 
-        // A timed landing can turn downward speed into a slide even when
-        // horizontal speed has dropped below the normal slide threshold.
-        // It still needs a travel direction (existing momentum or input).
+        // A timed landing can bypass minimum slide speed, but still needs direction.
         return Mathf.Abs(rb.linearVelocity.x) > 0.05f ||
                Mathf.Abs(moveInput.x) > 0.1f;
     }
@@ -257,8 +274,7 @@ public class PlayerMovement : MonoBehaviour
         if (bonus <= 0f)
             return;
 
-        // Prefer actual momentum. If Kali lands with ~0 horizontal speed,
-        // use the movement input to decide which direction to slide.
+        // Use input direction only when there is too little momentum to determine it.
         float direction = Mathf.Abs(rb.linearVelocity.x) > 0.05f
             ? Mathf.Sign(rb.linearVelocity.x)
             : Mathf.Sign(moveInput.x);
@@ -270,7 +286,6 @@ public class PlayerMovement : MonoBehaviour
         activeLandingSlideBonus += bonus;
         landingSlideBonusDirection = direction;
         reportedLandingBoostCameraClamp = false;
-        // Award only one boost per actual landing.
         landingBoostAvailable = false;
         if (logLandingSlideBoost)
         {
@@ -292,8 +307,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 leftOrigin = new Vector2(leftX, startY);
         Vector2 centerOrigin = new Vector2(centerX, startY);
         Vector2 rightOrigin = new Vector2(rightX, startY);
-        // Downward casts from inside the collider prevent nearby wall
-        // corners from being interpreted as ground.
+        // Start casts inside the collider to avoid treating wall corners as ground.
         groundHits[0] = Physics2D.Raycast(
             leftOrigin,
             Vector2.down,
@@ -367,8 +381,7 @@ public class PlayerMovement : MonoBehaviour
         float topY,
         Vector2 direction)
     {
-        // Three short horizontal casts verify that geometry is beside
-        // the player instead of allowing a ceiling overlap to count as a wall.
+        // Sideways casts avoid mistaking a ceiling for a wall.
         wallHits[0] = Physics2D.Raycast(
             new Vector2(startX, bottomY),
             direction,
@@ -551,8 +564,43 @@ public class PlayerMovement : MonoBehaviour
     {
         isSliding = true;
         slideTimer = 0f;
-        // Includes slide presses just AFTER landing.
         TryApplyLandingSlideBoost();
+    }
+
+    private void UpdateSlideDust()
+    {
+        if (slideDust == null)
+            return;
+
+        bool runFailed = RunManager.Instance != null &&
+            RunManager.Instance.CurrentState == RunManager.RunState.Failed;
+
+        bool shouldEmit = isGrounded && isSliding && !runFailed;
+
+        if (shouldEmit)
+        {
+            float direction = Mathf.Sign(rb.linearVelocity.x);
+
+            if (Mathf.Abs(rb.linearVelocity.x) > 0.1f)
+            {
+                Bounds bounds = playerCollider.bounds;
+                slideDust.transform.position = new Vector3(
+                    bounds.center.x - direction * bounds.extents.x,
+                    bounds.min.y + 0.05f,
+                    slideDust.transform.position.z
+                );
+            }
+
+            if (!slideDust.isPlaying)
+                slideDust.Play();
+        }
+        else if (slideDust.isPlaying)
+        {
+            slideDust.Stop(
+                true,
+                ParticleSystemStopBehavior.StopEmitting
+            );
+        }
     }
 
     private void RemoveLandingSlideBonus()
@@ -709,8 +757,6 @@ public class PlayerMovement : MonoBehaviour
                 * Time.fixedDeltaTime;
         }
 
-        // Limit extreme fall speeds after all gravity adjustments.
-        // Do not clamp wall sliding, which has its own speed limit.
         if (rb.linearVelocity.y < -maxFallSpeed)
         {
             rb.linearVelocity = new Vector2(
@@ -788,8 +834,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (isSliding)
         {
-            // Landing-slide momentum is exclusive to sliding; it does not
-            // carry into a jump, even when slide jumping is allowed.
+            // Do not carry the landing-slide bonus into a jump.
             RemoveLandingSlideBonus();
             isSliding = false;
             slideTimer = 0f;
@@ -805,7 +850,6 @@ public class PlayerMovement : MonoBehaviour
         landingBoostAvailable = false;
         lastAirborneDownwardSpeed = 0f;
         hadAirborneFall = false;
-        // Wall jumping sets its own horizontal velocity below.
         activeLandingSlideBonus = 0f;
         landingSlideBonusDirection = 0f;
         isSliding = false;
