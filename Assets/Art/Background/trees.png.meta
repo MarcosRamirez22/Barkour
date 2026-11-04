@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 3439a5268ab6f5643912e320f082a30d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3766592753556618616
+    second: Seamless emerald forest pixel-art tile_0
+  - first:
+      213: 509728336566927580
+    second: Seamless emerald forest pixel-art tile_1
+  - first:
+      213: -1174834201184093854
+    second: Seamless emerald forest pixel-art tile_2
+  - first:
+      213: -3215365768270185496
+    second: Seamless emerald forest pixel-art tile_3
+  - first:
+      213: -2223070792866869976
+    second: Seamless emerald forest pixel-art tile_4
+  - first:
+      213: -5621276700356684661
+    second: Seamless emerald forest pixel-art tile_5
+  - first:
+      213: 4113248328928771025
+    second: Seamless emerald forest pixel-art tile_6
+  - first:
+      213: 3487756652531246199
+    second: Seamless emerald forest pixel-art tile_7
+  - first:
+      213: 5627384881532736553
+    second: Seamless emerald forest pixel-art tile_8
+  - first:
+      213: 1779010191170383691
+    second: Seamless emerald forest pixel-art tile_9
+  - first:
+      213: -1587526991756278218
+    second: Seamless emerald forest pixel-art tile_10
+  - first:
+      213: -5659206763649563436
+    second: Seamless emerald forest pixel-art tile_11
+  - first:
+      213: 2450118848269812883
+    second: Seamless emerald forest pixel-art tile_12
+  - first:
+      213: -4258318297812744790
+    second: Seamless emerald forest pixel-art tile_13
+  - first:
+      213: -2853241100115805588
+    second: Seamless emerald forest pixel-art tile_14
+  - first:
+      213: -3574268872286034489
+    second: Seamless emerald forest pixel-art tile_15
+  - first:
+      213: -5124787259645321469
+    second: Seamless emerald forest pixel-art tile_16
+  - first:
+      213: 6061887972470325429
+    second: Seamless emerald forest pixel-art tile_17
+  - first:
+      213: -2242365904479168315
+    second: Seamless emerald forest pixel-art tile_18
+  - first:
+      213: 775687135780127808
+    second: Seamless emerald forest pixel-art tile_19
+  - first:
+      213: 8964932577201344159
+    second: Seamless emerald forest pixel-art tile_20
+  - first:
+      213: -8716792357430012017
+    second: Seamless emerald forest pixel-art tile_21
+  - first:
+      213: -4017829728345978950
+    second: Seamless emerald forest pixel-art tile_22
+  - first:
+      213: 7050643347399865226
+    second: Seamless emerald forest pixel-art tile_23
+  - first:
+      213: -5232078722639262100
+    second: Seamless emerald forest pixel-art tile_24
+  - first:
+      213: 5106712671243272664
+    second: Seamless emerald forest pixel-art tile_25
+  - first:
+      213: 1696473162996391499
+    second: Seamless emerald forest pixel-art tile_26
+  - first:
+      213: -3932964302678156444
+    second: Seamless emerald forest pixel-art tile_27
+  - first:
+      213: 7695793603053630645
+    second: Seamless emerald forest pixel-art tile_28
+  - first:
+      213: -366147547732461994
+    second: Seamless emerald forest pixel-art tile_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88282bec8df5abbc0800000000000000
+      internalID: -3766592753556618616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 612
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0c501b83be21700800000000000000
+      internalID: 509728336566927580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 610
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2693170c48622bfe0800000000000000
+      internalID: -1174834201184093854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 642
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebfd479ed9b063d0800000000000000
+      internalID: -3215365768270185496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 651
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dcf9864e01621e0800000000000000
+      internalID: -2223070792866869976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 604
+        width: 118
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b845f03bf963df1b0800000000000000
+      internalID: -5621276700356684661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_6
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 560
+        width: 45
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbb4ceef81351930800000000000000
+      internalID: 4113248328928771025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 618
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77461215230076030800000000000000
+      internalID: 3487756652531246199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_8
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 604
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924992e0cbc781e40800000000000000
+      internalID: 5627384881532736553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 614
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fa280e75050b810800000000000000
+      internalID: 1779010191170383691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_10
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 580
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636c501bc98f7f9e0800000000000000
+      internalID: -1587526991756278218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_11
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 564
+        width: 7
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40e26ae657671b0800000000000000
+      internalID: -5659206763649563436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_12
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 598
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3948c987c12900220800000000000000
+      internalID: 2450118848269812883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_13
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 602
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa54356d11a67e4c0800000000000000
+      internalID: -4258318297812744790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_14
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 613
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a7d0926504768d0800000000000000
+      internalID: -2853241100115805588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_15
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 614
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5a7afd565a56ec0800000000000000
+      internalID: -3574268872286034489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_16
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 592
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f946fb32911e8b0800000000000000
+      internalID: -5124787259645321469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_17
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 592
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b08e436ef6202450800000000000000
+      internalID: 6061887972470325429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_18
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 562
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c85217271481e0e0800000000000000
+      internalID: -2242365904479168315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_19
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 540
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044c309175bc3ca00800000000000000
+      internalID: 775687135780127808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_20
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 570
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec9634ea6d96c70800000000000000
+      internalID: 8964932577201344159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_21
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 540
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f875b82d88bb70780800000000000000
+      internalID: -8716792357430012017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_22
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 562
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab70fe1462dcd38c0800000000000000
+      internalID: -4017829728345978950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_23
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 548
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a837dbfb4cae8d160800000000000000
+      internalID: 7050643347399865226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_24
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 546
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e053c5f1ce367b0800000000000000
+      internalID: -5232078722639262100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_25
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 546
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d101733e10bed640800000000000000
+      internalID: 5106712671243272664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_26
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 65
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e126b7a551b8710800000000000000
+      internalID: 1696473162996391499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_27
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b9390fdcd4b69c0800000000000000
+      internalID: -3932964302678156444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_28
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 71
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b43cb60283fcca60800000000000000
+      internalID: 7695793603053630645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seamless emerald forest pixel-art tile_29
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 31
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656b60acebe2beaf0800000000000000
+      internalID: -366147547732461994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seamless emerald forest pixel-art tile_0: -3766592753556618616
+      Seamless emerald forest pixel-art tile_1: 509728336566927580
+      Seamless emerald forest pixel-art tile_10: -1587526991756278218
+      Seamless emerald forest pixel-art tile_11: -5659206763649563436
+      Seamless emerald forest pixel-art tile_12: 2450118848269812883
+      Seamless emerald forest pixel-art tile_13: -4258318297812744790
+      Seamless emerald forest pixel-art tile_14: -2853241100115805588
+      Seamless emerald forest pixel-art tile_15: -3574268872286034489
+      Seamless emerald forest pixel-art tile_16: -5124787259645321469
+      Seamless emerald forest pixel-art tile_17: 6061887972470325429
+      Seamless emerald forest pixel-art tile_18: -2242365904479168315
+      Seamless emerald forest pixel-art tile_19: 775687135780127808
+      Seamless emerald forest pixel-art tile_2: -1174834201184093854
+      Seamless emerald forest pixel-art tile_20: 8964932577201344159
+      Seamless emerald forest pixel-art tile_21: -8716792357430012017
+      Seamless emerald forest pixel-art tile_22: -4017829728345978950
+      Seamless emerald forest pixel-art tile_23: 7050643347399865226
+      Seamless emerald forest pixel-art tile_24: -5232078722639262100
+      Seamless emerald forest pixel-art tile_25: 5106712671243272664
+      Seamless emerald forest pixel-art tile_26: 1696473162996391499
+      Seamless emerald forest pixel-art tile_27: -3932964302678156444
+      Seamless emerald forest pixel-art tile_28: 7695793603053630645
+      Seamless emerald forest pixel-art tile_29: -366147547732461994
+      Seamless emerald forest pixel-art tile_3: -3215365768270185496
+      Seamless emerald forest pixel-art tile_4: -2223070792866869976
+      Seamless emerald forest pixel-art tile_5: -5621276700356684661
+      Seamless emerald forest pixel-art tile_6: 4113248328928771025
+      Seamless emerald forest pixel-art tile_7: 3487756652531246199
+      Seamless emerald forest pixel-art tile_8: 5627384881532736553
+      Seamless emerald forest pixel-art tile_9: 1779010191170383691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

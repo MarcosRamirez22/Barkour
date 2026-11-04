@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 38880343b16dedc499f2bd790e0d96b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 341589668294779132
+    second: kali crouch_0
+  - first:
+      213: -3208437592805291858
+    second: kali crouch_1
+  - first:
+      213: -7507100242290184603
+    second: kali crouch_2
+  - first:
+      213: -843246736252169056
+    second: kali crouch_3
+  - first:
+      213: 3952443950438262094
+    second: kali crouch_4
+  - first:
+      213: 512407686319041646
+    second: kali crouch_5
+  - first:
+      213: -1098729446220323158
+    second: kali crouch_6
+  - first:
+      213: -6424395692505654389
+    second: kali crouch_7
+  - first:
+      213: 1805958268556578007
+    second: kali crouch_8
+  - first:
+      213: 5475073474998695388
+    second: kali crouch_9
+  - first:
+      213: -303630571508262420
+    second: kali crouch_10
+  - first:
+      213: 5787975579075245695
+    second: kali crouch_11
+  - first:
+      213: 3470993486249822137
+    second: kali crouch_12
+  - first:
+      213: 8343977698608836967
+    second: kali crouch_13
+  - first:
+      213: 4208654583065982603
+    second: kali crouch_14
+  - first:
+      213: 7785060596742302714
+    second: kali crouch_15
+  - first:
+      213: -3884484223811233885
+    second: kali crouch_16
+  - first:
+      213: 8692414883416385669
+    second: kali crouch_17
+  - first:
+      213: 8033961753656734175
+    second: kali crouch_18
+  - first:
+      213: 3384925271990654299
+    second: kali crouch_19
+  - first:
+      213: 6626793101985814334
+    second: kali crouch_20
+  - first:
+      213: -3331694482259123470
+    second: kali crouch_21
+  - first:
+      213: 2988861148791191340
+    second: kali crouch_22
+  - first:
+      213: -4585228792320638382
+    second: kali crouch_23
+  - first:
+      213: 4732330719309266179
+    second: kali crouch_24
+  - first:
+      213: 2934252210225142735
+    second: kali crouch_25
+  - first:
+      213: 1981907595679190945
+    second: kali crouch_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.65}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kali crouch_0
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 773
+        width: 171
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf067a55ef19db400800000000000000
+      internalID: 341589668294779132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_1
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 628
+        width: 126
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8c4d422075973d0800000000000000
+      internalID: -3208437592805291858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 31
+        width: 1697
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e6b0d9a1c61d790800000000000000
+      internalID: -7507100242290184603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 640
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a49ea3af8f2c44f0800000000000000
+      internalID: -843246736252169056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_4
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 635
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45a38cf4d6e9d630800000000000000
+      internalID: 3952443950438262094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_5
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 634
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ce93b63107c1700800000000000000
+      internalID: 512407686319041646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_6
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 629
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6a6c5d36780c0f0800000000000000
+      internalID: -1098729446220323158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_7
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 626
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b96a3d726f7d6a0800000000000000
+      internalID: -6424395692505654389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_8
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 619
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc8e741a7d001910800000000000000
+      internalID: 1805958268556578007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_9
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 612
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5f57c315e5bfb40800000000000000
+      internalID: 5475073474998695388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 602
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce91d4a9a9949cbf0800000000000000
+      internalID: -303630571508262420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_11
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 579
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f767a678f15035050800000000000000
+      internalID: 5787975579075245695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_12
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 579
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b78d958f227b2030800000000000000
+      internalID: 3470993486249822137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 329
+        width: 35
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7617c533283cbc370800000000000000
+      internalID: 8343977698608836967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_14
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 265
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86b7fd7b05286a30800000000000000
+      internalID: 4208654583065982603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 244
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb27bf9d571a0c60800000000000000
+      internalID: 7785060596742302714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 143
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a75f18ed2a871ac0800000000000000
+      internalID: -3884484223811233885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_17
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 157
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5882a563849a1a870800000000000000
+      internalID: 8692414883416385669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_18
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 147
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1b8c136ad5e7f60800000000000000
+      internalID: 8033961753656734175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_19
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 149
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55de3cc99ba9fe20800000000000000
+      internalID: 3384925271990654299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 122
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e379fdb473917fb50800000000000000
+      internalID: 6626793101985814334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 98
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2e0dc358173c1d0800000000000000
+      internalID: -3331694482259123470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_22
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 98
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c273aa011619a7920800000000000000
+      internalID: 2988861148791191340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_23
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 86
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252c5dbf4befd50c0800000000000000
+      internalID: -4585228792320638382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_24
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30df81c57bd9ca140800000000000000
+      internalID: 4732330719309266179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_25
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 71
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbdfdfb6de88b820800000000000000
+      internalID: 2934252210225142735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kali crouch_26
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af4b1a2576218b10800000000000000
+      internalID: 1981907595679190945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kali crouch_0: 341589668294779132
+      kali crouch_1: -3208437592805291858
+      kali crouch_10: -303630571508262420
+      kali crouch_11: 5787975579075245695
+      kali crouch_12: 3470993486249822137
+      kali crouch_13: 8343977698608836967
+      kali crouch_14: 4208654583065982603
+      kali crouch_15: 7785060596742302714
+      kali crouch_16: -3884484223811233885
+      kali crouch_17: 8692414883416385669
+      kali crouch_18: 8033961753656734175
+      kali crouch_19: 3384925271990654299
+      kali crouch_2: -7507100242290184603
+      kali crouch_20: 6626793101985814334
+      kali crouch_21: -3331694482259123470
+      kali crouch_22: 2988861148791191340
+      kali crouch_23: -4585228792320638382
+      kali crouch_24: 4732330719309266179
+      kali crouch_25: 2934252210225142735
+      kali crouch_26: 1981907595679190945
+      kali crouch_3: -843246736252169056
+      kali crouch_4: 3952443950438262094
+      kali crouch_5: 512407686319041646
+      kali crouch_6: -1098729446220323158
+      kali crouch_7: -6424395692505654389
+      kali crouch_8: 1805958268556578007
+      kali crouch_9: 5475073474998695388
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
