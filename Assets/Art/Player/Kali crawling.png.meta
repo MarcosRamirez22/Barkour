@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 7c42ba029441aca4b85a3b921da82600
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6973337295797088376
+    second: Kali crawling_0
+  - first:
+      213: 1080020393895508873
+    second: Kali crawling_1
+  - first:
+      213: 3995216022062837958
+    second: Kali crawling_2
+  - first:
+      213: 8659080350347021273
+    second: Kali crawling_3
+  - first:
+      213: 7033349734243755450
+    second: Kali crawling_4
+  - first:
+      213: 8905933220093996289
+    second: Kali crawling_5
+  - first:
+      213: -7283875401006858149
+    second: Kali crawling_6
+  - first:
+      213: 3641701673985522944
+    second: Kali crawling_7
+  - first:
+      213: -4549203629778188950
+    second: Kali crawling_8
+  - first:
+      213: -1656899872304213462
+    second: Kali crawling_9
+  - first:
+      213: 3544653800362586625
+    second: Kali crawling_10
+  - first:
+      213: -979514724069252781
+    second: Kali crawling_11
+  - first:
+      213: -8057234366330887592
+    second: Kali crawling_12
+  - first:
+      213: 4236299884105216127
+    second: Kali crawling_13
+  - first:
+      213: -6988551930270732690
+    second: Kali crawling_14
+  - first:
+      213: -9029438742089867462
+    second: Kali crawling_15
+  - first:
+      213: -3363685485125606181
+    second: Kali crawling_16
+  - first:
+      213: 4398264182487902584
+    second: Kali crawling_17
+  - first:
+      213: -4821492257171913496
+    second: Kali crawling_18
+  - first:
+      213: -434658343421330809
+    second: Kali crawling_19
+  - first:
+      213: -5232701146566682188
+    second: Kali crawling_20
+  - first:
+      213: 7125149540088531349
+    second: Kali crawling_21
+  - first:
+      213: -8122461174673594609
+    second: Kali crawling_22
+  - first:
+      213: 8821766020930031218
+    second: Kali crawling_23
+  - first:
+      213: 2296321027371024107
+    second: Kali crawling_24
+  - first:
+      213: 3934990511337584692
+    second: Kali crawling_25
+  - first:
+      213: -8514755718435867500
+    second: Kali crawling_26
+  - first:
+      213: 4579155248872778455
+    second: Kali crawling_27
+  - first:
+      213: 4118021564134628354
+    second: Kali crawling_28
+  - first:
+      213: -4947767538922616483
+    second: Kali crawling_29
+  - first:
+      213: -1640493807221472725
+    second: Kali crawling_30
+  - first:
+      213: 7359667914608998740
+    second: Kali crawling_31
+  - first:
+      213: -4982912607053418036
+    second: Kali crawling_32
+  - first:
+      213: -7189695239109365980
+    second: Kali crawling_33
+  - first:
+      213: 6924351806930702906
+    second: Kali crawling_34
+  - first:
+      213: -685254437778824100
+    second: Kali crawling_35
+  - first:
+      213: -7462780674268629137
+    second: Kali crawling_36
+  - first:
+      213: -240767167517688880
+    second: Kali crawling_37
+  - first:
+      213: -2103116805923786216
+    second: Kali crawling_38
+  - first:
+      213: -3221719875655409474
+    second: Kali crawling_39
+  - first:
+      213: -2584371869986647804
+    second: Kali crawling_40
+  - first:
+      213: 6038842588355184131
+    second: Kali crawling_41
+  - first:
+      213: -2664378116226568337
+    second: Kali crawling_42
+  - first:
+      213: 3957418221517055679
+    second: Kali crawling_43
+  - first:
+      213: 6306783462489968880
+    second: Kali crawling_44
+  - first:
+      213: -6064342922309851559
+    second: Kali crawling_45
+  - first:
+      213: -4786943454979298363
+    second: Kali crawling_46
+  - first:
+      213: -8754486361068733403
+    second: Kali crawling_47
+  - first:
+      213: 141208296288432006
+    second: Kali crawling_48
+  - first:
+      213: -1799224133268232915
+    second: Kali crawling_49
+  - first:
+      213: -122753271210059017
+    second: Kali crawling_50
+  - first:
+      213: 8915331060689509959
+    second: Kali crawling_51
+  - first:
+      213: -2419407505982258195
+    second: Kali crawling_52
+  - first:
+      213: 6889231568230909824
+    second: Kali crawling_53
+  - first:
+      213: -1749651314818021194
+    second: Kali crawling_54
+  - first:
+      213: -936531360192615185
+    second: Kali crawling_55
+  - first:
+      213: -1334602427223046184
+    second: Kali crawling_56
+  - first:
+      213: -4087127584010929272
+    second: Kali crawling_57
+  - first:
+      213: -1815142184888959335
+    second: Kali crawling_58
+  - first:
+      213: 3212681077629876648
+    second: Kali crawling_59
+  - first:
+      213: -7757469991688612583
+    second: Kali crawling_60
+  - first:
+      213: 2194297062319658954
+    second: Kali crawling_61
+  - first:
+      213: 7574078527128695307
+    second: Kali crawling_62
+  - first:
+      213: 4846683929357904757
+    second: Kali crawling_63
+  - first:
+      213: 8423192189590295581
+    second: Kali crawling_64
+  - first:
+      213: -6936745039589206178
+    second: Kali crawling_65
+  - first:
+      213: -2855423785465943399
+    second: Kali crawling_66
+  - first:
+      213: 3468135376957749283
+    second: Kali crawling_67
+  - first:
+      213: -562613192059200219
+    second: Kali crawling_68
+  - first:
+      213: 7003948917850477110
+    second: Kali crawling_69
+  - first:
+      213: -799835388242260086
+    second: Kali crawling_70
+  - first:
+      213: 778801938865488662
+    second: Kali crawling_71
+  - first:
+      213: 8713210853569732415
+    second: Kali crawling_72
+  - first:
+      213: 6425898096912129344
+    second: Kali crawling_73
+  - first:
+      213: -1026361835610193265
+    second: Kali crawling_74
+  - first:
+      213: 6509320436371084557
+    second: Kali crawling_75
+  - first:
+      213: -7195422617369181199
+    second: Kali crawling_76
+  - first:
+      213: 8370250363011280663
+    second: Kali crawling_77
+  - first:
+      213: -3636540946244560061
+    second: Kali crawling_78
+  - first:
+      213: -6132065164673459154
+    second: Kali crawling_79
+  - first:
+      213: 7742305540658568138
+    second: Kali crawling_80
+  - first:
+      213: 7859367841650571637
+    second: Kali crawling_81
+  - first:
+      213: 2552500759088322411
+    second: Kali crawling_82
+  - first:
+      213: -1518468388684022575
+    second: Kali crawling_83
+  - first:
+      213: 4312751998206835336
+    second: Kali crawling_84
+  - first:
+      213: 3335048946815386945
+    second: Kali crawling_85
+  - first:
+      213: 6532164897575326078
+    second: Kali crawling_86
+  - first:
+      213: 2730882373637356856
+    second: Kali crawling_87
+  - first:
+      213: 8710432206257608132
+    second: Kali crawling_88
+  - first:
+      213: -7268120546927233189
+    second: Kali crawling_89
+  - first:
+      213: -7453337101594313982
+    second: Kali crawling_90
+  - first:
+      213: 8189693746050437184
+    second: Kali crawling_91
+  - first:
+      213: 7022808453748293579
+    second: Kali crawling_92
+  - first:
+      213: 611278281332288886
+    second: Kali crawling_93
+  - first:
+      213: 291989754453872101
+    second: Kali crawling_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kali crawling_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870f7fef25546c060800000000000000
+      internalID: 6973337295797088376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kali crawling_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bb15873d00dfe00800000000000000
+      internalID: 1080020393895508873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kali crawling_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c03104fdcbd17730800000000000000
+      internalID: 3995216022062837958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kali crawling_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbcffb63bb3b2870800000000000000
+      internalID: 8659080350347021273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: efba9fe6139489a4582070072fdd74b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":543.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Kali crawling_0: 6973337295797088376
+      Kali crawling_1: 1080020393895508873
+      Kali crawling_2: 3995216022062837958
+      Kali crawling_3: 8659080350347021273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
