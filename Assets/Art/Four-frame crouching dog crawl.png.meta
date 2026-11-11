@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: 3b910cdfb8a253541a843727af9a21ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2982969124215092653
+    second: Four-frame crouching dog crawl_0
+  - first:
+      213: 2516846430379707156
+    second: Four-frame crouching dog crawl_1
+  - first:
+      213: 2099894454200170498
+    second: Four-frame crouching dog crawl_2
+  - first:
+      213: 1415366571358037147
+    second: Four-frame crouching dog crawl_3
+  - first:
+      213: -5426678134895939396
+    second: Four-frame crouching dog crawl_4
+  - first:
+      213: 9166993494050014511
+    second: Four-frame crouching dog crawl_5
+  - first:
+      213: -3217239343869514184
+    second: Four-frame crouching dog crawl_6
+  - first:
+      213: -1551281973956871546
+    second: Four-frame crouching dog crawl_7
+  - first:
+      213: -3747483868504610266
+    second: Four-frame crouching dog crawl_8
+  - first:
+      213: -7517495605105043387
+    second: Four-frame crouching dog crawl_9
+  - first:
+      213: -8974174488857773483
+    second: Four-frame crouching dog crawl_10
+  - first:
+      213: 5575060425975312313
+    second: Four-frame crouching dog crawl_11
+  - first:
+      213: 9007241714368396128
+    second: Four-frame crouching dog crawl_12
+  - first:
+      213: 327049082742759046
+    second: Four-frame crouching dog crawl_13
+  - first:
+      213: -5497611293609054387
+    second: Four-frame crouching dog crawl_14
+  - first:
+      213: 7940765806308466186
+    second: Four-frame crouching dog crawl_15
+  - first:
+      213: 1568704058416764484
+    second: Four-frame crouching dog crawl_16
+  - first:
+      213: -4040537078024775610
+    second: Four-frame crouching dog crawl_17
+  - first:
+      213: 7510666980850891392
+    second: Four-frame crouching dog crawl_18
+  - first:
+      213: -2518281015568562025
+    second: Four-frame crouching dog crawl_19
+  - first:
+      213: 1186761165081390390
+    second: Four-frame crouching dog crawl_20
+  - first:
+      213: 8589336098550348420
+    second: Four-frame crouching dog crawl_21
+  - first:
+      213: -251923062830648760
+    second: Four-frame crouching dog crawl_22
+  - first:
+      213: -939022742950568109
+    second: Four-frame crouching dog crawl_23
+  - first:
+      213: -3034856082510995449
+    second: Four-frame crouching dog crawl_24
+  - first:
+      213: 3125135681780179936
+    second: Four-frame crouching dog crawl_25
+  - first:
+      213: -5013913533570309410
+    second: Four-frame crouching dog crawl_26
+  - first:
+      213: -8944250409199776204
+    second: Four-frame crouching dog crawl_27
+  - first:
+      213: 3773451946374407984
+    second: Four-frame crouching dog crawl_28
+  - first:
+      213: -7043867150545762636
+    second: Four-frame crouching dog crawl_29
+  - first:
+      213: -8409272591785743889
+    second: Four-frame crouching dog crawl_30
+  - first:
+      213: 8019535372149830684
+    second: Four-frame crouching dog crawl_31
+  - first:
+      213: -3351462938236711923
+    second: Four-frame crouching dog crawl_32
+  - first:
+      213: 765271703845600155
+    second: Four-frame crouching dog crawl_33
+  - first:
+      213: -6198006755381908942
+    second: Four-frame crouching dog crawl_34
+  - first:
+      213: -7983431905186013883
+    second: Four-frame crouching dog crawl_35
+  - first:
+      213: 6859244491443840835
+    second: Four-frame crouching dog crawl_36
+  - first:
+      213: -4512480079937578549
+    second: Four-frame crouching dog crawl_37
+  - first:
+      213: 9190768918173606175
+    second: Four-frame crouching dog crawl_38
+  - first:
+      213: 837784668468847246
+    second: Four-frame crouching dog crawl_39
+  - first:
+      213: -5264240415972322738
+    second: Four-frame crouching dog crawl_40
+  - first:
+      213: -1288950942694866821
+    second: Four-frame crouching dog crawl_41
+  - first:
+      213: 8878137203099440939
+    second: Four-frame crouching dog crawl_42
+  - first:
+      213: 930473321419963627
+    second: Four-frame crouching dog crawl_43
+  - first:
+      213: -6298091317090993723
+    second: Four-frame crouching dog crawl_44
+  - first:
+      213: -4272378023282213980
+    second: Four-frame crouching dog crawl_45
+  - first:
+      213: 2470727750365249863
+    second: Four-frame crouching dog crawl_46
+  - first:
+      213: 8097173353232415491
+    second: Four-frame crouching dog crawl_47
+  - first:
+      213: 8195265956726101514
+    second: Four-frame crouching dog crawl_48
+  - first:
+      213: -253664989359514634
+    second: Four-frame crouching dog crawl_49
+  - first:
+      213: -3038280203758597017
+    second: Four-frame crouching dog crawl_50
+  - first:
+      213: 2235149367453182353
+    second: Four-frame crouching dog crawl_51
+  - first:
+      213: 3782545265833715074
+    second: Four-frame crouching dog crawl_52
+  - first:
+      213: 7352761543561506897
+    second: Four-frame crouching dog crawl_53
+  - first:
+      213: 4533217251700174044
+    second: Four-frame crouching dog crawl_54
+  - first:
+      213: 7983770877053918077
+    second: Four-frame crouching dog crawl_55
+  - first:
+      213: -5094976758545875957
+    second: Four-frame crouching dog crawl_56
+  - first:
+      213: 2425845519601141870
+    second: Four-frame crouching dog crawl_57
+  - first:
+      213: 7637156450914633540
+    second: Four-frame crouching dog crawl_58
+  - first:
+      213: 2925487313824861604
+    second: Four-frame crouching dog crawl_59
+  - first:
+      213: 6699033299713501891
+    second: Four-frame crouching dog crawl_60
+  - first:
+      213: 5976867181502359482
+    second: Four-frame crouching dog crawl_61
+  - first:
+      213: 5434530823399481557
+    second: Four-frame crouching dog crawl_62
+  - first:
+      213: -1092396055194530898
+    second: Four-frame crouching dog crawl_63
+  - first:
+      213: 2893000408373147917
+    second: Four-frame crouching dog crawl_64
+  - first:
+      213: 9093546904174999679
+    second: Four-frame crouching dog crawl_65
+  - first:
+      213: -3469447838967573910
+    second: Four-frame crouching dog crawl_66
+  - first:
+      213: -598031949868214403
+    second: Four-frame crouching dog crawl_67
+  - first:
+      213: -4486163775341303203
+    second: Four-frame crouching dog crawl_68
+  - first:
+      213: -3429481426855229366
+    second: Four-frame crouching dog crawl_69
+  - first:
+      213: 2793774186143136032
+    second: Four-frame crouching dog crawl_70
+  - first:
+      213: 3655184861152749551
+    second: Four-frame crouching dog crawl_71
+  - first:
+      213: -6744519158466999486
+    second: Four-frame crouching dog crawl_72
+  - first:
+      213: 8691507062896765336
+    second: Four-frame crouching dog crawl_73
+  - first:
+      213: -3913059125827969347
+    second: Four-frame crouching dog crawl_74
+  - first:
+      213: -741847941341452372
+    second: Four-frame crouching dog crawl_75
+  - first:
+      213: 6110636294729023351
+    second: Four-frame crouching dog crawl_76
+  - first:
+      213: -2898712827384311411
+    second: Four-frame crouching dog crawl_77
+  - first:
+      213: -7876897520421563224
+    second: Four-frame crouching dog crawl_78
+  - first:
+      213: 8807864053853335536
+    second: Four-frame crouching dog crawl_79
+  - first:
+      213: -8209470033642506102
+    second: Four-frame crouching dog crawl_80
+  - first:
+      213: -318938266952184933
+    second: Four-frame crouching dog crawl_81
+  - first:
+      213: -4252204648901870304
+    second: Four-frame crouching dog crawl_82
+  - first:
+      213: -6084503935188056005
+    second: Four-frame crouching dog crawl_83
+  - first:
+      213: -8274183993474381947
+    second: Four-frame crouching dog crawl_84
+  - first:
+      213: 1112327330963688754
+    second: Four-frame crouching dog crawl_85
+  - first:
+      213: 648145086285702589
+    second: Four-frame crouching dog crawl_86
+  - first:
+      213: -2386147095885339490
+    second: Four-frame crouching dog crawl_87
+  - first:
+      213: -8771366252115586627
+    second: Four-frame crouching dog crawl_88
+  - first:
+      213: 2218608875575746606
+    second: Four-frame crouching dog crawl_89
+  - first:
+      213: -5740384238363148140
+    second: Four-frame crouching dog crawl_90
+  - first:
+      213: -192793142038370176
+    second: Four-frame crouching dog crawl_91
+  - first:
+      213: 6115646132969474807
+    second: Four-frame crouching dog crawl_92
+  - first:
+      213: -182421616367330611
+    second: Four-frame crouching dog crawl_93
+  - first:
+      213: 7061884653882577868
+    second: Four-frame crouching dog crawl_94
+  - first:
+      213: -8528039317387636991
+    second: Four-frame crouching dog crawl_95
+  - first:
+      213: 8903961230362015303
+    second: Four-frame crouching dog crawl_96
+  - first:
+      213: 4264729118542433019
+    second: Four-frame crouching dog crawl_97
+  - first:
+      213: -2348041442956039848
+    second: Four-frame crouching dog crawl_98
+  - first:
+      213: -7814369777173284070
+    second: Four-frame crouching dog crawl_99
+  - first:
+      213: -1354484006808139330
+    second: Four-frame crouching dog crawl_100
+  - first:
+      213: 6164409527037901235
+    second: Four-frame crouching dog crawl_101
+  - first:
+      213: 7697029556525338622
+    second: Four-frame crouching dog crawl_102
+  - first:
+      213: 5928887578019316708
+    second: Four-frame crouching dog crawl_103
+  - first:
+      213: -465520285824297721
+    second: Four-frame crouching dog crawl_104
+  - first:
+      213: -1315635817148716812
+    second: Four-frame crouching dog crawl_105
+  - first:
+      213: -4588693631177630900
+    second: Four-frame crouching dog crawl_106
+  - first:
+      213: -2716600143192399095
+    second: Four-frame crouching dog crawl_107
+  - first:
+      213: -8032477448111150362
+    second: Four-frame crouching dog crawl_108
+  - first:
+      213: -3409273410779699213
+    second: Four-frame crouching dog crawl_109
+  - first:
+      213: -5325292996625030206
+    second: Four-frame crouching dog crawl_110
+  - first:
+      213: 6490837927929939167
+    second: Four-frame crouching dog crawl_111
+  - first:
+      213: -773552993803039807
+    second: Four-frame crouching dog crawl_112
+  - first:
+      213: 9081961433934145435
+    second: Four-frame crouching dog crawl_113
+  - first:
+      213: 7107265257757959139
+    second: Four-frame crouching dog crawl_114
+  - first:
+      213: -9036057182793031009
+    second: Four-frame crouching dog crawl_115
+  - first:
+      213: 2372182390547700487
+    second: Four-frame crouching dog crawl_116
+  - first:
+      213: -1272787031093860213
+    second: Four-frame crouching dog crawl_117
+  - first:
+      213: -6996612760011289808
+    second: Four-frame crouching dog crawl_118
+  - first:
+      213: -3394623686292779737
+    second: Four-frame crouching dog crawl_119
+  - first:
+      213: -5131909912513010036
+    second: Four-frame crouching dog crawl_120
+  - first:
+      213: -5786259376732590333
+    second: Four-frame crouching dog crawl_121
+  - first:
+      213: -3259698574247139172
+    second: Four-frame crouching dog crawl_122
+  - first:
+      213: 7721551723069895368
+    second: Four-frame crouching dog crawl_123
+  - first:
+      213: -8812819075256227757
+    second: Four-frame crouching dog crawl_124
+  - first:
+      213: 136364096827836472
+    second: Four-frame crouching dog crawl_125
+  - first:
+      213: -342636729348820756
+    second: Four-frame crouching dog crawl_126
+  - first:
+      213: -5533613747464980903
+    second: Four-frame crouching dog crawl_127
+  - first:
+      213: -1931200685356989550
+    second: Four-frame crouching dog crawl_128
+  - first:
+      213: 6554196651665827018
+    second: Four-frame crouching dog crawl_129
+  - first:
+      213: 3696034386053008179
+    second: Four-frame crouching dog crawl_130
+  - first:
+      213: 2518738992122041829
+    second: Four-frame crouching dog crawl_131
+  - first:
+      213: -6638794328433299435
+    second: Four-frame crouching dog crawl_132
+  - first:
+      213: 1254370383061942656
+    second: Four-frame crouching dog crawl_133
+  - first:
+      213: -6932455974001810915
+    second: Four-frame crouching dog crawl_134
+  - first:
+      213: -5446563138083722125
+    second: Four-frame crouching dog crawl_135
+  - first:
+      213: -156877735504797667
+    second: Four-frame crouching dog crawl_136
+  - first:
+      213: 158031509271917577
+    second: Four-frame crouching dog crawl_137
+  - first:
+      213: 4518140572026320785
+    second: Four-frame crouching dog crawl_138
+  - first:
+      213: -2869740068305664753
+    second: Four-frame crouching dog crawl_139
+  - first:
+      213: 2734522818413242010
+    second: Four-frame crouching dog crawl_140
+  - first:
+      213: 2312905839508274351
+    second: Four-frame crouching dog crawl_141
+  - first:
+      213: 8318071573548973373
+    second: Four-frame crouching dog crawl_142
+  - first:
+      213: 9215483698617703074
+    second: Four-frame crouching dog crawl_143
+  - first:
+      213: 7958450373286359884
+    second: Four-frame crouching dog crawl_144
+  - first:
+      213: -8977730215850893258
+    second: Four-frame crouching dog crawl_145
+  - first:
+      213: 8978890509048883100
+    second: Four-frame crouching dog crawl_146
+  - first:
+      213: 5117528696957125621
+    second: Four-frame crouching dog crawl_147
+  - first:
+      213: 2854767380277830607
+    second: Four-frame crouching dog crawl_148
+  - first:
+      213: 8447544523653951775
+    second: Four-frame crouching dog crawl_149
+  - first:
+      213: -730007597378410683
+    second: Four-frame crouching dog crawl_150
+  - first:
+      213: 8162129293628439900
+    second: Four-frame crouching dog crawl_151
+  - first:
+      213: 3395216304785885868
+    second: Four-frame crouching dog crawl_152
+  - first:
+      213: 6090420431758080014
+    second: Four-frame crouching dog crawl_153
+  - first:
+      213: 30000221379328977
+    second: Four-frame crouching dog crawl_154
+  - first:
+      213: 8651537426652844785
+    second: Four-frame crouching dog crawl_155
+  - first:
+      213: 6640616882540156757
+    second: Four-frame crouching dog crawl_156
+  - first:
+      213: 4754645858957306346
+    second: Four-frame crouching dog crawl_157
+  - first:
+      213: 3555607531698291249
+    second: Four-frame crouching dog crawl_158
+  - first:
+      213: -5311625107845455612
+    second: Four-frame crouching dog crawl_159
+  - first:
+      213: 5764915290540380969
+    second: Four-frame crouching dog crawl_160
+  - first:
+      213: 348908022471379710
+    second: Four-frame crouching dog crawl_161
+  - first:
+      213: 6440266079515617967
+    second: Four-frame crouching dog crawl_162
+  - first:
+      213: 8883366029496941914
+    second: Four-frame crouching dog crawl_163
+  - first:
+      213: 5638979628249187797
+    second: Four-frame crouching dog crawl_164
+  - first:
+      213: -1713629501725292733
+    second: Four-frame crouching dog crawl_165
+  - first:
+      213: 2187623516840069680
+    second: Four-frame crouching dog crawl_166
+  - first:
+      213: 8374474586571560214
+    second: Four-frame crouching dog crawl_167
+  - first:
+      213: -5280098335673836702
+    second: Four-frame crouching dog crawl_168
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Four-frame crouching dog crawl_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a833fc26d5a96d0800000000000000
+      internalID: -2982969124215092653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four-frame crouching dog crawl_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b0efc5e72ade220800000000000000
+      internalID: 2516846430379707156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four-frame crouching dog crawl_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208f96061e2542d10800000000000000
+      internalID: 2099894454200170498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four-frame crouching dog crawl_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 0
+        width: 543
+        height: 724
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9422c0d56464a310800000000000000
+      internalID: 1415366571358037147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 744429cdccbd9374ba7c9ddbf2ac38e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":543.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Four-frame crouching dog crawl_0: -2982969124215092653
+      Four-frame crouching dog crawl_1: 2516846430379707156
+      Four-frame crouching dog crawl_2: 2099894454200170498
+      Four-frame crouching dog crawl_3: 1415366571358037147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

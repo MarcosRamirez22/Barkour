@@ -48,10 +48,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Surface Detection")]
     [SerializeField] private LayerMask environmentLayer;
     [SerializeField] private float groundCheckDistance = 0.08f;
-    [SerializeField] private float groundCheckInset = 0.1f;
+    [SerializeField] private float groundCheckInset = 0.05f;
     [SerializeField] private float wallCheckDistance = 0.08f;
-    [SerializeField, Range(0.1f, 0.45f)]
-    private float wallCheckVerticalInset = 0.2f;
+    [SerializeField] private float wallCheckVerticalInset = 0.05f;
 
     [Header("Wall Movement")]
     [SerializeField] private float wallSlideSpeed = 2f;
@@ -65,6 +64,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Camera gameplayCamera;
     [SerializeField] private CameraController cameraController;
     [SerializeField] private float rightBoundaryPadding = 0f;
+<<<<<<< Updated upstream
+=======
+    private static readonly int IsCrouchingHash = Animator.StringToHash("isCrouching");
+
+    private static readonly int AirPhaseHash =
+    Animator.StringToHash("AirPhase");
+    [SerializeField] private float apexThreshold = 1f;
+
+    private static readonly int IsWallSlidingHash =
+    Animator.StringToHash("IsWallSliding");
+
+>>>>>>> Stashed changes
     private Rigidbody2D rb;
     private BoxCollider2D playerCollider;
     private Vector2 moveInput;
@@ -121,7 +132,60 @@ public class PlayerMovement : MonoBehaviour
         HandleWallJumpControlLock();
         HandleCrouch();
         TryJump();
+<<<<<<< Updated upstream
+=======
+        UpdateAnimation();
+        UpdateSlideDust();
     }
+
+
+
+    private void UpdateAnimation()
+    {
+        if (animator == null)
+            return;
+
+        animator.SetBool(IsCrouchingHash, isCrouching || isSliding);
+
+        bool isCrawling =
+            isGrounded &&
+            isCrouching &&
+            !isSliding &&
+            Mathf.Abs(moveInput.x) > 0.1f &&
+            rb.linearVelocity.y <= apexThreshold;
+
+        animator.SetBool("IsCrawling", isCrawling);
+
+        // Play the wall animation while airborne and pressing against a wall.
+        bool pressingTowardWall =
+            (wallDirection == 1 && moveInput.x > 0.01f) ||
+            (wallDirection == -1 && moveInput.x < -0.01f);
+
+        bool touchingWallWhileAirborne =
+            !isGrounded &&
+            isTouchingWall &&
+            pressingTowardWall;
+
+        animator.SetBool(IsWallSlidingHash, touchingWallWhileAirborne);
+
+        float verticalSpeed = rb.linearVelocity.y;
+        int airPhase = 0;
+
+        if (!isGrounded || verticalSpeed > apexThreshold)
+        {
+            if (verticalSpeed > apexThreshold)
+                airPhase = 1;
+            else if (verticalSpeed < -apexThreshold)
+                airPhase = 3;
+            else
+                airPhase = 2;
+        }
+
+        animator.SetInteger(AirPhaseHash, airPhase);
+>>>>>>> Stashed changes
+    }
+
+
 
     private void FixedUpdate()
     {
