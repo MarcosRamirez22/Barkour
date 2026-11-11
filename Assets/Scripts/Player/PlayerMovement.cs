@@ -75,6 +75,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float rightBoundaryPadding = 0f;
     private static readonly int IsCrouchingHash = Animator.StringToHash("isCrouching");
 
+
+    private static readonly int AirPhaseHash =
+        Animator.StringToHash("AirPhase");
+
+    private static readonly int IsWallSlidingHash =
+        Animator.StringToHash("IsWallSliding");
+
+    private static readonly int IsCrawlingHash =
+        Animator.StringToHash("IsCrawling");
+
+    [SerializeField] private float apexThreshold = 1f;
+
+
     private Rigidbody2D rb;
     private BoxCollider2D playerCollider;
     private Vector2 moveInput;
@@ -135,11 +148,53 @@ public class PlayerMovement : MonoBehaviour
         UpdateSlideDust();
     }
 
+
     private void UpdateAnimation()
     {
-        if (animator != null)
-            animator.SetBool(IsCrouchingHash, isCrouching || isSliding);
+        if (animator == null)
+            return;
+
+        // Crouching and sliding
+        animator.SetBool(IsCrouchingHash, isCrouching || isSliding);
+
+        // Crawling only while crouched and actively moving
+        bool isCrawling =
+            isGrounded &&
+            isCrouching &&
+            !isSliding &&
+            Mathf.Abs(moveInput.x) > 0.1f;
+
+        animator.SetBool(IsCrawlingHash, isCrawling);
+
+        // Wall animation while airborne and pressing against a wall
+        bool pressingTowardWall =
+            (wallDirection == 1 && moveInput.x > 0.01f) ||
+            (wallDirection == -1 && moveInput.x < -0.01f);
+
+        bool touchingWallWhileAirborne =
+            !isGrounded &&
+            isTouchingWall &&
+            pressingTowardWall;
+
+        animator.SetBool(IsWallSlidingHash, touchingWallWhileAirborne);
+
+        // Jump rising, apex, and falling
+        float verticalSpeed = rb.linearVelocity.y;
+        int airPhase = 0;
+
+        if (!isGrounded || verticalSpeed > apexThreshold)
+        {
+            if (verticalSpeed > apexThreshold)
+                airPhase = 1;
+            else if (verticalSpeed < -apexThreshold)
+                airPhase = 3;
+            else
+                airPhase = 2;
+        }
+
+        animator.SetInteger(AirPhaseHash, airPhase);
     }
+
 
     private void FixedUpdate()
     {
