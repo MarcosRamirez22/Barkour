@@ -23,7 +23,8 @@ public class PlayerRunAnimation : MonoBehaviour
 
         float horizontalSpeed = Mathf.Abs(rb.linearVelocity.x);
 
-        bool isRunning = horizontalSpeed > minimumRunSpeed;
+        bool isRunning = RunManager.Instance?.IsEnteringFromMenu == true ||
+            horizontalSpeed > minimumRunSpeed;
 
         animator.SetBool("IsRunning", isRunning);
     }

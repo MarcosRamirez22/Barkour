@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -42,6 +43,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Min(0f)] private float hardLandingDustSpeed = 12f;
     [SerializeField] private ParticleSystem slideDust;
 
+    [Header("Landing Audio")]
+    [SerializeField] private AudioSource landingAudioSource;
+    [SerializeField] private AudioClip landingSound;
+    [SerializeField, Range(0f, 1f)] private float landingVolume = 0.4f;
+
     [Header("Landing Slide Boost")]
     [Tooltip("Seconds before or after landing that a slide press can earn the boost.")]
     [SerializeField, Min(0f)] private float landingSlideTimingWindow = 0.12f;
@@ -58,8 +64,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float groundCheckDistance = 0.08f;
     [SerializeField] private float groundCheckInset = 0.1f;
     [SerializeField] private float wallCheckDistance = 0.08f;
-    [SerializeField, Range(0.1f, 0.45f)]
-    private float wallCheckVerticalInset = 0.2f;
+    [SerializeField] private float wallCheckVerticalInset = 0.05f;
 
     [Header("Wall Movement")]
     [SerializeField] private float wallSlideSpeed = 2f;
@@ -117,6 +122,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 standingColliderSize;
     private Vector2 standingColliderOffset;
     private readonly RaycastHit2D[] groundHits = new RaycastHit2D[3];
+    private readonly RaycastHit2D[] groundShapeHits =
+        new RaycastHit2D[8];
     private readonly RaycastHit2D[] wallHits = new RaycastHit2D[3];
 
     private void Awake()
@@ -132,8 +139,46 @@ public class PlayerMovement : MonoBehaviour
         standingColliderOffset = playerCollider.offset;
     }
 
+    private IEnumerator Start()
+    {
+        var run = RunManager.Instance;
+        if (run == null || !run.IsEnteringFromMenu) yield break;
+        if (animator == null || animator.transform == transform || gameplayCamera == null)
+        {
+            run.CompleteMenuEntrance();
+            yield break;
+        }
+
+        // Offset the artwork only, so the collider and score origin stay at the spawn point.
+        Transform visual = animator.transform;
+        Vector3 destination = visual.localPosition;
+        float depth = gameplayCamera.WorldToViewportPoint(visual.position).z;
+        float leftEdge = gameplayCamera.ViewportToWorldPoint(new Vector3(0f, .5f, depth)).x;
+        Vector3 startWorld = visual.position;
+        startWorld.x = leftEdge - 2f;
+        Vector3 entrance = visual.parent.InverseTransformPoint(startWorld);
+        const float duration = .85f;
+
+        bool wasSimulated = rb.simulated;
+        rb.simulated = false;
+        visual.localPosition = entrance;
+        for (float elapsed = 0f; elapsed < duration; elapsed += Time.deltaTime)
+        {
+            float progress = Mathf.Clamp01(elapsed / duration);
+            float eased = 1f - Mathf.Pow(1f - progress, 1.6f);
+            visual.localPosition = Vector3.Lerp(entrance, destination, eased);
+            yield return null;
+        }
+
+        visual.localPosition = destination;
+        rb.simulated = wasSimulated;
+        run.CompleteMenuEntrance();
+    }
+
     private void Update()
     {
+        if (Time.timeScale <= 0f || RunManager.Instance?.IsEnteringFromMenu == true) return;
+
         moveInput = moveAction.ReadValue<Vector2>();
         bool wasGrounded = isGrounded;
         CheckGrounded();
@@ -198,6 +243,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (RunManager.Instance?.IsEnteringFromMenu == true) return;
         if (RunManager.Instance != null &&
             RunManager.Instance.CurrentState == RunManager.RunState.Failed)
         {
@@ -245,6 +291,7 @@ public class PlayerMovement : MonoBehaviour
         if (landingDust != null && landingDownwardSpeed >= hardLandingDustSpeed)
         {
             landingDust.Play();
+            landingAudioSource.PlayOneShot(landingSound, landingVolume);
         }
 
         lastLandingTime = Time.time;
@@ -385,6 +432,31 @@ public class PlayerMovement : MonoBehaviour
             groundHits[0].collider != null ||
             groundHits[1].collider != null ||
             groundHits[2].collider != null;
+
+        // Backup ground detection using Kali's actual collider shape.
+        if (!isGrounded)
+        {
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.SetLayerMask(environmentLayer);
+            filter.useTriggers = false;
+
+            int hitCount = playerCollider.Cast(
+                Vector2.down,
+                filter,
+                groundShapeHits,
+                groundCheckDistance
+            );
+
+            for (int i = 0; i < hitCount; i++)
+            {
+                // Only count surfaces supporting Kali from below.
+                if (groundShapeHits[i].normal.y > 0.6f)
+                {
+                    isGrounded = true;
+                    break;
+                }
+            }
+        }
     }
 
     private void CheckWall()
@@ -923,17 +995,21 @@ public class PlayerMovement : MonoBehaviour
         isWallSliding = false;
     }
 
-    public bool IsOffScreenLeft()
+    public bool IsOffScreenLeft() => DistanceBehindCamera > 0f;
+
+    public float DistanceBehindCamera
     {
-        if (gameplayCamera == null)
+        get
         {
-            return false;
+            if (gameplayCamera == null || playerCollider == null) return 0f;
+            float cameraLeftEdge = gameplayCamera.ViewportToWorldPoint(
+                new Vector3(0f, 0.5f, 0f)).x;
+            return Mathf.Max(0f, cameraLeftEdge - playerCollider.bounds.max.x);
         }
-        float cameraLeftEdge = gameplayCamera.ViewportToWorldPoint(
-            new Vector3(0f, 0.5f, 0f)
-        ).x;
-        return playerCollider.bounds.max.x < cameraLeftEdge;
     }
+
+    public Camera GameplayCamera => gameplayCamera;
+    public Vector3 RecoveryIndicatorPosition => playerCollider.bounds.center;
 
     private void OnDrawGizmosSelected()
     {

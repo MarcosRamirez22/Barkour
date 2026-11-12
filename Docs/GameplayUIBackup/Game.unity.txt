@@ -1045,8 +1045,8 @@ MonoBehaviour:
   - {fileID: 1333624029658944356, guid: 5b246be3c8dc72749ba85b21d75d2cbc, type: 3}
   - {fileID: 1333624029658944356, guid: 698294f75776b6043a4eadb155a2a453, type: 3}
   - {fileID: 1333624029658944356, guid: 22640d3f3f4dace42869bb1b99f44410, type: 3}
-  startingChunkCount: 3
-  safeStartingChunks: 2
+  startingChunkCount: 2
+  safeStartingChunks: 1
   chunkWidth: 20
   spawnAheadDistance: 20
   cleanupDistance: 20
@@ -11967,6 +11967,7 @@ GameObject:
   - component: {fileID: 2131860971}
   - component: {fileID: 2131860972}
   - component: {fileID: 2131860973}
+  - component: {fileID: 2131860974}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -12011,7 +12012,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a02f0984469d1b046b1120b4a58b35ef, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -12046,7 +12047,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 2.25, y: 1.5}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.011
 --- !u!212 &2131860969
 SpriteRenderer:
   serializedVersion: 2
@@ -12115,7 +12116,7 @@ Transform:
   m_GameObject: {fileID: 2131860965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.912, y: -7.551, z: 0}
+  m_LocalPosition: {x: -13.67, y: -7.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12160,6 +12161,9 @@ MonoBehaviour:
   landingDust: {fileID: 1959718655}
   hardLandingDustSpeed: 20
   slideDust: {fileID: 1316768325}
+  landingAudioSource: {fileID: 2131860974}
+  landingSound: {fileID: 8300000, guid: c3d67dfa21699434e8c90850e5ffdf47, type: 3}
+  landingVolume: 1
   landingSlideTimingWindow: 0.15
   landingSlideMinimumFallSpeed: 21
   landingSlideConversion: 0.3
@@ -12168,10 +12172,10 @@ MonoBehaviour:
   environmentLayer:
     serializedVersion: 2
     m_Bits: 8
-  groundCheckDistance: 0.04
-  groundCheckInset: 0.1
-  wallCheckDistance: 0.04
-  wallCheckVerticalInset: 0.1
+  groundCheckDistance: 0.06
+  groundCheckInset: 0.05
+  wallCheckDistance: 0.06
+  wallCheckVerticalInset: 0.05
   wallSlideSpeed: 2
   wallJumpHorizontalForce: 7
   wallJumpVerticalForce: 9
@@ -12194,6 +12198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationController
   spriteRenderer: {fileID: 913180550}
   rb: {fileID: 2131860966}
+  animator: {fileID: 913180549}
   spriteFacesRight: 1
   directionThreshold: 0.1
 --- !u!114 &2131860973
@@ -12210,6 +12215,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRunAnimation
   animator: {fileID: 913180549}
   minimumRunSpeed: 0.05
+--- !u!82 &2131860974
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131860965}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
