@@ -3871,7 +3871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
   startingSpeed: 1
-  maximumSpeed: 12
+  maximumSpeed: 11
   acceleration: 0.1
 --- !u!114 &887953573
 MonoBehaviour:
