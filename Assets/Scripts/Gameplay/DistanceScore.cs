@@ -10,6 +10,9 @@ public class DistanceScore : MonoBehaviour
 
     private const string BestDistanceKey = "BestDistance";
 
+    public int CurrentDistance => Mathf.FloorToInt(farthestX - startingX);
+    public int BestDistance => bestDistance;
+
     private float startingX;
     private float farthestX;
     private int bestDistance;
@@ -55,3 +58,4 @@ public class DistanceScore : MonoBehaviour
             bestDistanceText.text = $"BEST: {bestDistance} m";
     }
 }
+

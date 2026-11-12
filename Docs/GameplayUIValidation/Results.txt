@@ -1,0 +1,87 @@
+Gameplay UI runtime validation
+PASS: Gameplay starts
+PASS: Real off-screen recovery triggers
+PASS: Recovery timer visible at 1280x720
+PASS: RecoveryCountdown inside viewport
+PASS: DistanceText inside viewport
+PASS: BestDistanceText inside viewport
+PASS: Horizontal gameplay span preserved
+PASS: Bottom edge preserved; extra view extends upward
+PASS: Recovery timer visible at 1920x1080
+PASS: RecoveryCountdown inside viewport
+PASS: DistanceText inside viewport
+PASS: BestDistanceText inside viewport
+PASS: Horizontal gameplay span preserved
+PASS: Bottom edge preserved; extra view extends upward
+PASS: Recovery timer visible at 1920x1200
+PASS: RecoveryCountdown inside viewport
+PASS: DistanceText inside viewport
+PASS: BestDistanceText inside viewport
+PASS: Horizontal gameplay span preserved
+PASS: Bottom edge preserved; extra view extends upward
+PASS: Recovery timer visible at 1280x800
+PASS: RecoveryCountdown inside viewport
+PASS: DistanceText inside viewport
+PASS: BestDistanceText inside viewport
+PASS: Horizontal gameplay span preserved
+PASS: Bottom edge preserved; extra view extends upward
+PASS: Recovery timer visible at 1024x768
+PASS: RecoveryCountdown inside viewport
+PASS: DistanceText inside viewport
+PASS: BestDistanceText inside viewport
+PASS: Horizontal gameplay span preserved
+PASS: Bottom edge preserved; extra view extends upward
+PASS: 4:3 uses black top/bottom borders
+PASS: Recovery timer visible at 2560x1080
+PASS: RecoveryCountdown inside viewport
+PASS: DistanceText inside viewport
+PASS: BestDistanceText inside viewport
+PASS: Horizontal gameplay span preserved
+PASS: Bottom edge preserved; extra view extends upward
+PASS: Ultrawide uses black side borders
+PASS: Recovery timeout reaches Failed
+PASS: Game Over freezes gameplay
+PASS: Game Over shows actual played seed
+PASS: Final distance matches score
+PASS: Best distance matches score
+PASS: Player remains frozen
+PASS: MainMenuButton inside viewport
+PASS: RestartButton inside viewport
+PASS: QuitButton inside viewport
+PASS: GameOverCard inside viewport
+PASS: Player remains frozen
+PASS: MainMenuButton inside viewport
+PASS: RestartButton inside viewport
+PASS: QuitButton inside viewport
+PASS: GameOverCard inside viewport
+PASS: Player remains frozen
+PASS: MainMenuButton inside viewport
+PASS: RestartButton inside viewport
+PASS: QuitButton inside viewport
+PASS: GameOverCard inside viewport
+PASS: Player remains frozen
+PASS: MainMenuButton inside viewport
+PASS: RestartButton inside viewport
+PASS: QuitButton inside viewport
+PASS: GameOverCard inside viewport
+PASS: Player remains frozen
+PASS: MainMenuButton inside viewport
+PASS: RestartButton inside viewport
+PASS: QuitButton inside viewport
+PASS: GameOverCard inside viewport
+PASS: Player remains frozen
+PASS: MainMenuButton inside viewport
+PASS: RestartButton inside viewport
+PASS: QuitButton inside viewport
+PASS: GameOverCard inside viewport
+PASS: Keyboard navigates Retry to Main Menu while paused
+PASS: Controller navigates Main Menu to Retry
+PASS: Retry loads Game
+PASS: Retry resets run and waits for input
+PASS: Retry restores normal time
+PASS: Game Over manager remains separate from panel
+PASS: Second Game Over freezes correctly
+PASS: Main Menu button fades back to menu
+PASS: Return to menu restores normal time
+PASS: Main menu remains functional
+PASS: All gameplay UI checks completed.

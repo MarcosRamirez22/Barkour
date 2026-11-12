@@ -21,14 +21,44 @@ public class RunManager : MonoBehaviour
     public bool IsRunning =>
         CurrentState == RunState.Running;
 
+    private static string entranceScene;
+    public bool IsEnteringFromMenu { get; private set; }
+
+    public static void QueueMenuEntrance(string sceneName)
+    {
+        entranceScene = sceneName;
+    }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetMenuEntrance()
+    {
+        entranceScene = null;
+    }
+
+    public void CompleteMenuEntrance()
+    {
+        IsEnteringFromMenu = false;
+        IgnoreStartInputThisFrame();
+    }
+
+    private int ignoreStartInputFrame = -1;
+
+    public void IgnoreStartInputThisFrame()
+    {
+        ignoreStartInputFrame = Time.frameCount;
+    }
+
     private void Awake()
     {
         Instance = this;
+        IsEnteringFromMenu = gameObject.scene.name == entranceScene;
+        entranceScene = null;
     }
 
     private void Update()
     {
-        if (CurrentState != RunState.WaitingToStart)
+        if (IsEnteringFromMenu || Time.timeScale <= 0f || Time.frameCount == ignoreStartInputFrame ||
+            CurrentState != RunState.WaitingToStart)
         {
             return;
         }

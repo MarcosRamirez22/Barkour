@@ -13,6 +13,7 @@ public class FailureSystem : MonoBehaviour
 
     public bool IsRecovering => isRecovering;
     public float RecoveryTimer => recoveryTimer;
+    public PlayerMovement RecoveringPlayer => playerMovement;
 
     private void Awake()
     {
