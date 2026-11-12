@@ -42,6 +42,7 @@ public class RunManager : MonoBehaviour
     }
 
     private int ignoreStartInputFrame = -1;
+    private InputAction moveAction;
 
     public void IgnoreStartInputThisFrame()
     {
@@ -51,6 +52,7 @@ public class RunManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        moveAction = InputSystem.actions.FindAction("Move");
         IsEnteringFromMenu = gameObject.scene.name == entranceScene;
         entranceScene = null;
     }
@@ -63,7 +65,10 @@ public class RunManager : MonoBehaviour
             return;
         }
 
-        if (AnyInputPressed())
+        bool isMoving = moveAction != null &&
+            Mathf.Abs(moveAction.ReadValue<Vector2>().x) > 0.1f;
+
+        if (isMoving || AnyInputPressed())
         {
             StartRun();
         }
