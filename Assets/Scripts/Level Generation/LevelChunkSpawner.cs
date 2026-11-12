@@ -29,6 +29,22 @@ public class LevelChunkSpawner : MonoBehaviour
     [SerializeField] private bool useRandomSeed = true;
     [SerializeField] private int seed = 12345;
 
+    public static int? MenuSeed { get; private set; }
+    private static bool useMenuSeedSettings;
+
+    public static void SetMenuSeed(int? customSeed)
+    {
+        MenuSeed = customSeed;
+        useMenuSeedSettings = true;
+    }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetMenuSeed()
+    {
+        MenuSeed = null;
+        useMenuSeedSettings = false;
+    }
+
     private System.Random levelRandom;
 
     private readonly Queue<GameObject> activeChunks =
@@ -75,7 +91,11 @@ public class LevelChunkSpawner : MonoBehaviour
 
     private void InitializeSeed()
     {
-        if (useRandomSeed)
+        if (useMenuSeedSettings)
+        {
+            seed = MenuSeed ?? UnityEngine.Random.Range(int.MinValue, int.MaxValue);
+        }
+        else if (useRandomSeed)
         {
             seed = Environment.TickCount;
         }

@@ -1,0 +1,2 @@
+Recovery baseline: Canvas scale mode=ConstantPixelSize; anchor=(0.50, 0.50); position=(0.00, 429.00); size=(302.71, 167.71). At 720px height its center is 360+429=789, above the screen. At 1080px height it is 540+429=969, inside.
+Camera half-height=10; Full HD horizontal span=35.55556.

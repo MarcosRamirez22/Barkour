@@ -1,0 +1,36 @@
+Barkour Unity runtime smoke checks
+PASS: Menu loaded
+PASS: Independent parallax moves
+PASS: No gameplay manager in MainMenu
+PASS: Kali run animation advances
+PASS: SettingsButton visible at 1920x1080
+PASS: QuitButton visible at 1920x1080
+PASS: PlayButton visible at 1920x1080
+PASS: Keyboard navigation Play to Settings
+PASS: Keyboard submit opens Settings
+PASS: SFXSlider visible at 1920x1080
+PASS: MasterSlider visible at 1920x1080
+PASS: BackButton visible at 1920x1080
+PASS: MusicSlider visible at 1920x1080
+PASS: Keyboard adjusts master slider
+PASS: Master volume applied to listener
+PASS: Music volume applied independently
+PASS: Volume values persisted
+PASS: SettingsButton visible at 1920x1200
+PASS: QuitButton visible at 1920x1200
+PASS: PlayButton visible at 1920x1200
+PASS: Controller submit opens Settings
+PASS: Controller navigates to Music
+PASS: Controller adjusts music slider
+PASS: SFXSlider visible at 1920x1200
+PASS: MasterSlider visible at 1920x1200
+PASS: BackButton visible at 1920x1200
+PASS: MusicSlider visible at 1920x1200
+PASS: Controller cancel returns to menu
+PASS: Volume survives scene reload
+PASS: Play transition loads Game, duplicate Play ignored
+PASS: New Game waits for first input
+PASS: Menu removed after loading Game
+PASS: Game audio receives persisted SFX settings
+PASS: Game starts from keyboard input
+PASS: All runtime smoke checks completed.
